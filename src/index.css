@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@theme {
+  /* Animations */
+  --animate-orb-bounce: orbBounce 4s ease-in-out infinite;
+  --animate-orb-shadow: orbShadow 4s ease-in-out infinite;
+
+  @keyframes orbBounce {
+    0%,100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(40px);
+    }
+  }
+
+  @keyframes orbShadow {
+    0%, 100% { transform: translateX(-50%) scaleX(1);    opacity: 0.5; }
+    50%       { transform: translateX(-50%) scaleX(0.55); opacity: 0.18; }
+  }
+
+  /* Colors */
+  --color-pulse-x-red: #F23333;
+  --color-pulse-x-dark-red: #E32323;
+  --color-pulse-x-card-red: #D10D10;
+  --color-pulse-x-card-gray: #989FAC;
+  --color-pulse-x-subtitle-gray: #DEDEDE;
+
+  --color-snackly-blue: #3A0CA3;
+  --color-snackly-purple: #7209B7;
+  --color-snackly-card-gray: #989FAC;
+
+  --color-drox360-orange: #FC641C;
+  --color-drox360-light-gray: #E5E5E5;
+  --color-drox360-dark-gray: #989FAC;
+  --color-drox360-input-gray: #DDDEE3;
+
+  --color-cybersky-red: #F23333;
+
+  --color-seofy-green: #117352;
+  --color-seofy-white: #D9D9D9;
+  --color-seofy-darkgreen: #07242C;
+  --color-seofy-card-blue: #2C697C;
+  --color-seofy-btn-darkgreen: #164D55;
+
+  --color-white: #E5E5E5;
+  --color-placeholder-color: #E5E5E5;
+
+  /* Font family */
+  --font-sans: "Glacial Indifference", sans-serif;
+  --font-glacial: "Glacial Indifference", sans-serif;
+
+  /* Font sizes */
+  --text-h1: 8rem;
+  --text-h2: 6rem;
+  --text-h3: 5rem;
+  --text-h4: 4rem;
+  --text-h5: 3rem;
+  --text-h6: 2.25rem;
+  --text-h7: 1.5rem;
+
+  --text-t1: 2rem;
+  --text-t2: 1.75rem;
+  --text-t3: 1.5rem;
+  --text-t4: 1.25rem;
+  --text-t5: 1rem;
+  --text-t6: 0.75rem;
+  --text-t7: 0.625rem;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "Glacial Indifference";
+  src: url("/fonts/GlacialIndifference-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Glacial Indifference";
+  src: url("/fonts/GlacialIndifference-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
