@@ -1,15 +1,19 @@
 // import { Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar.tsx";
+import Carousel from "./components/Carousel.tsx";
 
 export default function App() {
   return (
       <>
-        <Navbar />
-        {/*<Routes>*/}
-        {/*  <Route path="/" element={} />*/}
+          <Navbar />
+          <Carousel />
+          <Carousel />
 
-        {/*</Routes>*/}
+          {/*<Routes>*/}
+            {/*  <Route path="/" element={} />*/}
+
+          {/*</Routes>*/}
       </>
   );
 }
