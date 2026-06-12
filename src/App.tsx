@@ -1,19 +1,16 @@
-// import { Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar.tsx";
-import Carousel from "./components/Carousel.tsx";
+import Home from "./pages/Home.tsx";
 
 export default function App() {
   return (
-      <>
+      <div className="overflow-x-hidden">
           <Navbar />
-          <Carousel />
-          <Carousel />
+          <Routes>
+              <Route path="/" element={<Home />} />
 
-          {/*<Routes>*/}
-            {/*  <Route path="/" element={} />*/}
-
-          {/*</Routes>*/}
-      </>
+          </Routes>
+      </div>
   );
 }

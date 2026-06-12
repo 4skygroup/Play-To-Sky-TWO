@@ -1,0 +1,34 @@
+{
+  "home": {
+    "hero": {
+      "title": "Scaling Brands, One Group, Infinite Growth.",
+      "subtitle": "A 360° group of specialized agencies — brand, digital, media, IT and content.",
+      "cta_project": "Tell us about your project",
+      "cta_locations": "Paris London New York",
+      "stats": "9 agencies, X+ satisfied clients, M€+ in managed ad spend"
+    }
+  },
+  "acquisition": {
+    "hero": {
+      "title": "Digital Acquisition & Algorithmic Performance",
+      "subtitle": "We merge cutting-edge artificial intelligence with the most advanced technology ecosystems to maximize the impact of your acquisition campaigns."
+    },
+    "features": {
+      "data": {
+        "title": "Data-driven strategy",
+        "subtitle": "No more guesswork, only precision.",
+        "description": "All our strategic directions are based on quantified indicators and measurable facts. Through continuous A/B testing and strict quantitative analysis protocols, we eliminate uncertainty to deploy only campaigns whose effectiveness is scientifically validated."
+      },
+      "clarity": {
+        "title": "Instant clarity & visibility",
+        "subtitle": "Stay in full control of your investments.",
+        "description": "We design custom tracking environments tailored to your business's specific objectives. From cost per acquisition (CPA) tracking to lifetime value (LTV) analysis, you steer the profitability of your growth actions in real time through our live reporting interfaces."
+      },
+      "algo": {
+        "title": "Advanced algorithms & automation",
+        "subtitle": "Artificial intelligence at the service of your profitability.",
+        "description": "We delegate repetitive and time-consuming processes to cutting-edge AI technologies. Whether it's generating creative variations, real-time budget reallocation, or predictive bid management, our systems work continuously (24/7). This frees up all the time needed for our consultants to shape and refine your acquisition strategies."
+      }
+    }
+  }
+}

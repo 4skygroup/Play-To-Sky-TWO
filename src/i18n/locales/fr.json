@@ -1,0 +1,34 @@
+{
+  "home": {
+    "hero": {
+      "title": "Scaling Brands, One Group, Infinite Growth.",
+      "subtitle": "Un groupe 360° d'agences spécialisées — brand, digital, médias, IT et contenu.",
+      "cta_project": "Parlez nous de votre projet",
+      "cta_locations": "Paris Londres New York",
+      "stats": "9 agences, + de X clients satisfaits, + M€ de budget publicitaire"
+    }
+  },
+  "acquisition": {
+    "hero": {
+      "title": "Acquisition digitale & Performance algorithmique",
+      "subtitle": "Nous fusionnons la puissance de l'intelligence artificielle de pointe avec les écosystèmes technologiques les plus avancés pour maximiser l'impact de vos campagnes d'acquisition."
+    },
+    "features": {
+      "data": {
+        "title": "Stratégie guidée par la donnée",
+        "subtitle": "Fini l'intuition, place à la précision.",
+        "description": "Toutes nos orientations stratégiques reposent sur des indicateurs chiffrés et des faits mesurables. Grâce à des tests A/B continus et des protocoles d'analyse quantitative stricts, nous éliminons l'incertitude pour déployer uniquement des campagnes dont l'efficacité est scientifiquement validée."
+      },
+      "clarity": {
+        "title": "Clarté et visibilité instantanées",
+        "subtitle": "Gardez un contrôle total sur vos investissements.",
+        "description": "Nous concevons des environnements de suivi sur-mesure, adaptés aux objectifs spécifiques de votre business. Du suivi du coût par acquisition (CPA) à l'analyse de la valeur vie client (LTV), vous pilotez la rentabilité de vos actions de croissance à l'instant T grâce à nos interfaces de reporting en direct."
+      },
+      "algo": {
+        "title": "Algorithmes et automatisation avancée",
+        "subtitle": "L'intelligence artificielle au service de votre rentabilité.",
+        "description": "Nous déléguons les processus répétitifs et chronophages à des technologies d'IA de pointe. Qu'il s'agisse de la génération de déclinaisons créatives, du réajustement des budgets en temps réel ou de la gestion prédictive des enchères, nos systèmes travaillent en continu (24/7). Cela libère tout le temps nécessaire à nos consultants pour façonner et affiner vos stratégies d'acquisition."
+      }
+    }
+  }
+}
