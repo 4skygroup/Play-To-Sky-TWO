@@ -20,8 +20,8 @@ export default function Navbar() {
         <nav className="fixed top-0 left-0 right-0 z-50 bg-black flex items-center justify-between px-8 py-5">
 
             {/* Logo */}
-            <NavLink to="/" className="shrink-0">
-                <img src="" alt="play to sky logo" className="h-6" />
+            <NavLink to="/" className="shrink-0 ml-8">
+                <img src="/playToSky.png" alt="play to sky logo" className="h-6" />
             </NavLink>
 
             {/* ── Desktop nav ── */}
@@ -36,7 +36,7 @@ export default function Navbar() {
                                 href={path}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="font-glacial text-t5 text-white hover:text-drox360-orange transition-colors duration-200"                            >
+                                className="font-glacial text-t5 text-white hover:text-gray-400 transition-colors duration-200"                            >
                                 {label}
                             </a>
                         ) : (
@@ -44,7 +44,7 @@ export default function Navbar() {
                                 to={path}
                                 className={({ isActive }) =>
                                     `font-glacial text-t5 transition-colors duration-200 flex items-center gap-1 ${
-                                        isActive ? "text-drox360-orange" : "text-white hover:text-drox360-orange"
+                                        isActive ? "text-white" : "text-white hover:text-gray-400"
                                     }`
                                 }
                             >
@@ -85,7 +85,7 @@ export default function Navbar() {
                 {/* Logo centré */}
                 <div className="flex justify-center mt-16 mb-12">
                     <NavLink to="/" onClick={() => setMenuOpen(false)}>
-                        <img src="/logoDrox.png" alt="Pulse X" className="h-12" />
+                        <img src="/playToSky.png" alt="Pulse X" className="h-12" />
                     </NavLink>
                 </div>
 

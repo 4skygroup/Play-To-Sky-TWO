@@ -8,13 +8,13 @@ export default function Hero() {
         <section
             className="relative min-h-screen overflow-hidden flex items-center justify-center p-4 sm:p-6"
             style={{
-                background: `
+                  background: `
                     linear-gradient(
                         180deg,
-                        #0d0000 0%,
-                        #450000 20%,
-                        #a80f0f 60%,
-                        #ff2d2d 100%
+                        #00090a 0%,
+                        #01383a 20%,
+                        #05aeb5 60%,
+                        #07F0F8 100%
                     )
                 `,
             }}
@@ -27,7 +27,7 @@ export default function Hero() {
 
                     {/* Titre */}
                     <h1 className="font-glacial font-normal text-white leading-tight tracking-tight
-                        text-t1 sm:text-h7 md:text-h6 lg:text-h4">
+                        text-h6 sm:text-h7 md:text-h6 lg:text-h4">
                         {t("home.hero.title")}
                     </h1>
 

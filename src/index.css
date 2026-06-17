@@ -4,6 +4,36 @@
   /* Animations */
   --animate-orb-bounce: orbBounce 4s ease-in-out infinite;
   --animate-orb-shadow: orbShadow 4s ease-in-out infinite;
+  --animate-breathe: breathe 4s ease-in-out infinite;
+  --animate-slide-left: slideLeft 50s linear infinite;
+  --animate-slide-right: slideRight 50s linear infinite;
+
+  @keyframes breathe {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(2);
+    }
+  }
+
+  @keyframes slideLeft {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-50% - 0.33rem));
+    }
+  }
+
+  @keyframes slideRight {
+    0% {
+      transform: translateX(calc(-50% - 0.33rem));
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
 
   @keyframes orbBounce {
     0%,100% {

@@ -30,5 +30,110 @@
         "description": "We delegate repetitive and time-consuming processes to cutting-edge AI technologies. Whether it's generating creative variations, real-time budget reallocation, or predictive bid management, our systems work continuously (24/7). This frees up all the time needed for our consultants to shape and refine your acquisition strategies."
       }
     }
+  },
+  "testimonials": {
+    "trustTitle": "Trust from industry leaders",
+    "trustSubtitle": "Discover what our clients say",
+    "items": [
+      { "initial": "A", "name": "First Last", "role": "Position", "quote": "The Sparkle by Jaws team is not only very attentive to their clients' needs, but also incredibly creative and professional. It's a pleasure working with them on the EDHEC Business School account." },
+      { "initial": "A", "name": "First Last", "role": "Position", "quote": "The Sparkle by Jaws team is not only very attentive to their clients' needs, but also incredibly creative and professional. It's a pleasure working with them on the EDHEC Business School account." },
+      { "initial": "A", "name": "First Last", "role": "Position", "quote": "The Sparkle by Jaws team is not only very attentive to their clients' needs, but also incredibly creative and professional. It's a pleasure working with them on the EDHEC Business School account." }
+    ]
+  },
+
+  "hero": {
+    "title": "Building your digital success around your audience's expectations",
+    "cta": "Start a project",
+    "subtitle": "A 360° group of specialized agencies – brand, digital, media, IT and content."
+  },
+
+  "governance": {
+    "title": "Governance",
+    "letsTalk": "Let's Talk",
+    "members": [
+      {
+        "name": "Rjay Agoh",
+        "role": "Global CEO & PMO, Strategist",
+        "linkedinUrl": "#",
+        "letsTalkUrl": "#"
+      },
+      {
+        "name": "Thierno Diallo",
+        "role": "Chief Operations Officer",
+        "linkedinUrl": "#",
+        "letsTalkUrl": "#"
+      },
+      {
+        "name": "Koffi Félix Agoh",
+        "role": "Chief Financial Officer",
+        "linkedinUrl": "#",
+        "letsTalkUrl": "#"
+      },
+      {
+        "name": "Aymard D",
+        "role": "Secretary General",
+        "linkedinUrl": "#",
+        "letsTalkUrl": "#"
+      },
+      {
+        "name": "Rjay Agoh",
+        "role": "Global CEO & PMO, Strategist",
+        "linkedinUrl": "#",
+        "letsTalkUrl": "#"
+      },
+      {
+        "name": "Thierno Diallo",
+        "role": "Chief Operations Officer",
+        "linkedinUrl": "#",
+        "letsTalkUrl": "#"
+      },
+      {
+        "name": "Aymard D",
+        "role": "Secretary General",
+        "linkedinUrl": "#",
+        "letsTalkUrl": "#"
+      }
+    ]
+  },
+
+  "contact": {
+    "title": "Let's build your growth together",
+    "subtitle": "Our experts help you define a digital strategy aligned with your goals. Reach out through whichever channel suits you best.",
+    "footerNote": "9 complementary areas of expertise, one goal: growing your business.",
+    "info": {
+      "email": { "label": "Email", "value": "contact@seofy.agency" },
+      "phone": { "label": "Phone", "value": "+33 1 23 45 67 89" },
+      "hours": { "label": "Hours", "value": "Mon–Fri · 9:30am–7:00pm" }
+    },
+    "form": {
+      "tabs": { "callback": "Request a callback", "message": "Send a message" },
+      "fields": {
+        "lastName": "Last name",
+        "firstName": "First name",
+        "phone": "Phone number",
+        "email": "Email",
+        "subject": "Subject",
+        "timeSlot": "Call time slot",
+        "message": "Message"
+      },
+      "placeholders": {
+        "lastName": "Smith",
+        "firstName": "John",
+        "phone": "+1 555 123 4567",
+        "email": "john@example.com",
+        "select": "Select…",
+        "message": "Tell us how we can help…"
+      },
+      "subjects": ["SEO & Search Rankings", "Social Ads", "Content Marketing", "Analytics", "Other"],
+      "timeSlots": ["9:30 – 10:30 AM", "10:30 – 11:30 AM", "11:30 AM – 12:30 PM", "2:00 – 3:00 PM", "3:00 – 4:00 PM", "4:00 – 5:00 PM", "5:00 – 6:00 PM"],
+      "messages": {
+        "callbackSuccess": "Request sent successfully!",
+        "messageSuccess": "Message sent successfully!",
+        "error": "Something went wrong. Please try again.",
+        "sending": "Sending…",
+        "submitCallback": "Request a callback",
+        "submitMessage": "Send message"
+      }
+    }
   }
 }

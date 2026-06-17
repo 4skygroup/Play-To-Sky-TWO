@@ -18,7 +18,7 @@ export default function FeatureCard({ titleKey, subtitleKey, descriptionKey }: F
                 </div>
                 <p className="text-pulse-x-card-gray text-t6 font-glacial leading-snug pl-5">{t(subtitleKey)}</p>
             </div>
-            <p className="text-[#cccccc] text-t6 font-glacial leading-relaxed flex-1">{t(descriptionKey)}</p>
+            <p className="text-[#cccccc] text-t6 md:text-t5 font-glacial leading-relaxed flex-1">{t(descriptionKey)}</p>
         </div>
     )
 }
