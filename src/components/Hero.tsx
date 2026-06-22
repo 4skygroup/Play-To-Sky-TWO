@@ -1,5 +1,4 @@
 import { useTranslation } from "react-i18next";
-import LangSwitcher from "./LangSwitcher";
 
 export default function Hero() {
     const { t } = useTranslation();
@@ -45,7 +44,7 @@ export default function Hero() {
                             <span>↘</span>
                         </button>
 
-                        <button className="px-6 py-2.5 rounded-full bg-white text-black
+                        <button className="px-6 py-2.5 rounded-full bg-[#020B6A] text-black
                             shadow-[0_4px_0_rgba(0,0,0,0.6)] flex items-center justify-center gap-2
                             font-medium font-glacial text-t6 sm:text-t5 hover:bg-white/90 transition-colors whitespace-nowrap">
                             {t("home.hero.cta_locations")}
@@ -67,10 +66,6 @@ export default function Hero() {
                     </div>
                 </div>
 
-                {/* Langue */}
-                <div className="absolute bottom-7 right-7 sm:bottom-8 sm:right-8 md:bottom-16 md:right-16 z-20">
-                    <LangSwitcher />
-                </div>
             </div>
         </section>
     );

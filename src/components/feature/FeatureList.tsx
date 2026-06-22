@@ -26,7 +26,7 @@ export default function FeatureList() {
         <section className="bg-black min-h-screen w-full flex flex-col items-center px-4 py-16 md:py-24">
             <div className="max-w-5xl w-full mx-auto flex flex-col items-center gap-10">
                 <div className="text-center">
-                    <h1 className="text-white font-bold font-glacial text-h6 md:text-h5 leading-tight mb-4">{t('acquisition.hero.title')}</h1>
+                    <h2 className="text-white font-glacial text-t1 md:text-h6 leading-tight mb-4">{t('acquisition.hero.title')}</h2>
                     <p className="text-pulse-x-subtitle-gray font-glacial text-t5 md:text-t4 max-w-2xl mx-auto leading-relaxed">{t('acquisition.hero.subtitle')}</p>
                 </div>
                 <div className="flex flex-col gap-5 w-full">

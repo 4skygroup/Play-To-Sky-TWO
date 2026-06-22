@@ -21,7 +21,7 @@ export default function TestimonialList() {
             {/* Bloc inférieur — confiance */}
             <div className="flex w-full max-w-5xl flex-col items-center gap-10">
                 <div className="flex flex-col items-center gap-2 text-center">
-                    <h3 className="text-h7 font-bold text-white md:text-t1">{t("testimonials.trustTitle")}</h3>
+                    <h3 className="text-h7 text-white md:text-t1">{t("testimonials.trustTitle")}</h3>
                     <p className="text-t5 leading-relaxed text-white/60 md:text-t4">{t("testimonials.trustSubtitle")}</p>
                 </div>
 

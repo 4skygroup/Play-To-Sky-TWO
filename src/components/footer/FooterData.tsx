@@ -1,17 +1,25 @@
-export const services = [
-    { label: "Community Management", href: "/mentions-legales" },
-    { label: "Creative Energy", href: "/confidentialite" },
-    { label: "Development", href: "/mentions-legales" },
-    { label: "SEO", href: "/confidentialite" },
-    { label: "Contact", href: "/mentions-legales" },
-];
+import { useTranslation } from "react-i18next";
 
-export const mentions = [
-    { label: "Mentions légales", href: "/projets" },
-    { label: "Politique de confidentialité", href: "/about" },
-    { label: "Conditions générales de vente (CGV)", href: "/contact" },
-    { label: "Conditions générales d’utilisation (CGU)", href: "/contact" },
-];
+export const useFooterData = () => {
+    const { t } = useTranslation();
+
+    const services = [
+        { label: t("footer.services.community"), href: "/mentions-legales" },
+        { label: t("footer.services.creative"), href: "/confidentialite" },
+        { label: t("footer.services.development"), href: "/mentions-legales" },
+        { label: t("footer.services.seo"), href: "/confidentialite" },
+        { label: t("footer.services.contact"), href: "/mentions-legales" },
+    ];
+
+    const mentions = [
+        { label: t("footer.mentions.legal"), href: "/projets" },
+        { label: t("footer.mentions.privacy"), href: "/about" },
+        { label: t("footer.mentions.cgv"), href: "/contact" },
+        { label: t("footer.mentions.cgu"), href: "/contact" },
+    ];
+
+    return { services, mentions };
+};
 
 export const entites = [
     { label: "Visuance", href: "https://www.visuanceagency.com/" },

@@ -1,20 +1,17 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-
-interface NavItem {
-    label: string;
-    path: string;
-    external?: boolean;
-}
-
-const navItems: NavItem[] = [
-    { label: "Localisation", path: "/localisation"},
-    { label: "About",   path: "/about" },
-    { label: "Contacter",   path: "/contact" },
-];
+import { useTranslation } from "react-i18next";
+import LangSwitcher from "./LangSwitcher.tsx";
 
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState<boolean>(false);
+    const { t } = useTranslation();
+
+    const navItems = [
+        { labelKey: "navbar.localisation", path: "/localisation" },
+        { labelKey: "navbar.about",        path: "/about" },
+        { labelKey: "navbar.contact",      path: "/contact" },
+    ];
 
     return (
         <nav className="fixed top-0 left-0 right-0 z-50 bg-black flex items-center justify-between px-8 py-5">
@@ -24,33 +21,22 @@ export default function Navbar() {
                 <img src="/playToSky.png" alt="play to sky logo" className="h-6" />
             </NavLink>
 
+            <LangSwitcher />
+
             {/* ── Desktop nav ── */}
             <ul className="hidden md:flex items-center gap-10">
-                {navItems.map(({ label, path, external}) => (
-                    <li
-                        key={path}
-                        className="relative"
-                    >
-                        {external ? (
-                            <a
-                                href={path}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="font-glacial text-t5 text-white hover:text-gray-400 transition-colors duration-200"                            >
-                                {label}
-                            </a>
-                        ) : (
-                            <NavLink
-                                to={path}
-                                className={({ isActive }) =>
-                                    `font-glacial text-t5 transition-colors duration-200 flex items-center gap-1 ${
-                                        isActive ? "text-white" : "text-white hover:text-gray-400"
-                                    }`
-                                }
-                            >
-                                {label}
-                            </NavLink>
-                        )}
+                {navItems.map(({ labelKey, path }) => (
+                    <li key={path} className="relative">
+                        <NavLink
+                            to={path}
+                            className={({ isActive }) =>
+                                `font-glacial text-t5 transition-colors duration-200 flex items-center gap-1 ${
+                                    isActive ? "text-white" : "text-white hover:text-gray-400"
+                                }`
+                            }
+                        >
+                            {t(labelKey)}
+                        </NavLink>
                     </li>
                 ))}
             </ul>
@@ -66,7 +52,7 @@ export default function Navbar() {
                 <span className={`block h-0.5 w-6 bg-white transition-transform duration-300 ${menuOpen ? "-translate-y-2 -rotate-45" : ""}`} />
             </button>
 
-            {/* ── Mobile menu — ── */}
+            {/* ── Mobile menu ── */}
             <div
                 className={`fixed inset-0 bg-black md:hidden flex flex-col transition-all duration-300 ${
                     menuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
@@ -91,27 +77,15 @@ export default function Navbar() {
 
                 {/* Items centrés */}
                 <ul className="flex flex-col items-center gap-8 flex-1">
-                    {navItems.map(({ label, path, external }) => (
+                    {navItems.map(({ labelKey, path }) => (
                         <li key={path} className="text-center">
-                            {external ? (
-                                <a
-                                    href={path}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    onClick={() => setMenuOpen(false)}
-                                    className="font-glacial text-t3 text-white"
-                                >
-                                    {label}
-                                </a>
-                            ) : (
-                                <NavLink
-                                    to={path}
-                                    onClick={() => setMenuOpen(false)}
-                                    className="font-glacial text-t3 text-white"
-                                >
-                                    {label}
-                                </NavLink>
-                            )}
+                            <NavLink
+                                to={path}
+                                onClick={() => setMenuOpen(false)}
+                                className="font-glacial text-t3 text-white"
+                            >
+                                {t(labelKey)}
+                            </NavLink>
                         </li>
                     ))}
                 </ul>

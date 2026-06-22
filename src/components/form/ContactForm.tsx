@@ -50,11 +50,13 @@ function CallbackForm() {
     const { t } = useTranslation();
     const subjects = t("contact.form.subjects", { returnObjects: true }) as string[];
     const timeSlots = t("contact.form.timeSlots", { returnObjects: true }) as string[];
+    const callDays = t("contact.form.callDays", { returnObjects: true }) as string[];
 
     const [nom, setNom] = useState("");
     const [prenom, setPrenom] = useState("");
     const [tel, setTel] = useState("");
     const [sujet, setSujet] = useState("");
+    const [jour, setJour] = useState("");
     const [horaire, setHoraire] = useState("");
     const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
 
@@ -65,7 +67,7 @@ function CallbackForm() {
         const res = await fetch(FORMSPREE, {
             method: "POST",
             headers: { "Content-Type": "application/json", Accept: "application/json" },
-            body: JSON.stringify({ nom, prenom, tel, sujet, horaire }),
+            body: JSON.stringify({ nom, prenom, tel, sujet, jour, horaire }),
         });
 
         if (res.ok) {
@@ -74,6 +76,7 @@ function CallbackForm() {
             setPrenom("");
             setTel("");
             setSujet("");
+            setJour("");
             setHoraire("");
         } else {
             setStatus("error");
@@ -88,6 +91,7 @@ function CallbackForm() {
             </div>
             <Field label={t("contact.form.fields.phone")} placeholder={t("contact.form.placeholders.phone")} type="tel" value={tel} onChange={setTel} />
             <SelectField label={t("contact.form.fields.subject")} options={subjects} value={sujet} onChange={setSujet} />
+            <SelectField label={t("contact.form.fields.callDay")} options={callDays} value={jour} onChange={setJour} />
             <SelectField label={t("contact.form.fields.timeSlot")} options={timeSlots} value={horaire} onChange={setHoraire} />
 
             {status === "sent" && (

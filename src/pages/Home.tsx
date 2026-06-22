@@ -4,6 +4,8 @@ import FeatureList from "../components/feature/FeatureList.tsx";
 import TestimonialList from "../components/commentaire/CommentaireList.tsx";
 import SliderInfini, {type Logo} from "../components/SliderInfini.tsx";
 import HeroFooter from "../components/HeroFooter.tsx";
+import SectionTop from "../components/SectionTop.tsx";
+import Faq from "../components/faq/Faq.tsx";
 
 export default function Home() {
     const partenaires: Logo[] = [
@@ -30,10 +32,13 @@ export default function Home() {
         <>
             <Hero />
             <SliderInfini logos={partenaires} />
+            <SectionTop title="Nos agences" />
             <Carousel />
             <FeatureList />
             <TestimonialList />
+            <SectionTop title="Accrédité par les leaders mondiaux du digital" />
             <SliderInfini logos={clients} />
+            <Faq />
             <HeroFooter />
         </>
     );

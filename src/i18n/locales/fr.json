@@ -1,4 +1,10 @@
 {
+  "navbar": {
+    "localisation": "Localisation",
+    "about": "À propos",
+    "contact": "Contacter"
+  },
+
   "home": {
     "hero": {
       "title": "Scaling Brands, One Group, Infinite Growth.",
@@ -38,6 +44,27 @@
       { "initial": "A", "name": "Nom Prénom", "role": "Poste", "quote": "L'équipe Sparkle by Jaws est non seulement très à l'écoute des besoins de ses clients, mais aussi incroyablement créative et professionnelle. C'est un plaisir de travailler avec eux sur le compte d'EDHEC Business School." },
       { "initial": "A", "name": "Nom Prénom", "role": "Poste", "quote": "L'équipe Sparkle by Jaws est non seulement très à l'écoute des besoins de ses clients, mais aussi incroyablement créative et professionnelle. C'est un plaisir de travailler avec eux sur le compte d'EDHEC Business School." },
       { "initial": "A", "name": "Nom Prénom", "role": "Poste", "quote": "L'équipe Sparkle by Jaws est non seulement très à l'écoute des besoins de ses clients, mais aussi incroyablement créative et professionnelle. C'est un plaisir de travailler avec eux sur le compte d'EDHEC Business School." }
+    ]
+  },
+
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      {
+        "id": 1,
+        "question": "Pourquoi confier vos réseaux sociaux à Pulse X ?",
+        "answer": "Parce qu'une présence efficace sur les réseaux sociaux ne s'improvise pas. De la stratégie à la création de contenu, en passant par la publicité et l'analyse, chaque étape compte. Pulse X réunit toutes ces expertises au sein d'une seule équipe, avec une exigence de qualité constante. Vous bénéficiez d'une gestion cohérente de tous vos canaux — Instagram, TikTok et bien d'autres — plutôt que d'actions dispersées."
+      },
+      {
+        "id": 2,
+        "question": "Quels services propose Pulse X ?",
+        "answer": "Pulse X couvre l'ensemble de votre présence sociale : stratégie éditoriale, création de contenu, gestion de comptes, publicité digitale (Meta Ads, TikTok Ads), animation de communauté et reporting de performance. De la conception à la diffusion, votre communication est gérée de bout en bout, avec une voix cohérente sur chaque plateforme."
+      },
+      {
+        "id": 3,
+        "question": "Comment Pulse X développe-t-il ma visibilité et mon audience ?",
+        "answer": "Notre approche repose sur la donnée et l'itération. Nous définissons votre positionnement, construisons une stratégie éditoriale distinctive, puis produisons des contenus pensés pour maximiser la portée et l'engagement. Chaque action est mesurée, analysée et ajustée. L'objectif n'est pas seulement de faire grossir des chiffres, mais de construire une audience qualifiée et engagée qui génère de la valeur."
+      }
     ]
   },
 
@@ -114,6 +141,7 @@
         "email": "Email",
         "subject": "Sujet",
         "timeSlot": "Horaire de l'appel",
+        "callDay": "Jour d'appel souhaité",
         "message": "Message"
       },
       "placeholders": {
@@ -122,10 +150,12 @@
         "phone": "+33 6 12 34 56 78",
         "email": "jean@exemple.com",
         "select": "Sélectionner…",
+        "callDay": "Select a day",
         "message": "Dites-nous en quoi nous pouvons vous aider…"
       },
       "subjects": ["SEO & Référencement", "Social Ads", "Content Marketing", "Analytics", "Autre"],
       "timeSlots": ["9h30 – 10h30", "10h30 – 11h30", "11h30 – 12h30", "14h00 – 15h00", "15h00 – 16h00", "16h00 – 17h00", "17h00 – 18h00"],
+      "callDays": ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi"],
       "messages": {
         "callbackSuccess": "Demande envoyée avec succès !",
         "messageSuccess": "Message envoyé avec succès !",
@@ -134,6 +164,27 @@
         "submitCallback": "Demander un rappel",
         "submitMessage": "Envoyer le message"
       }
+    }
+  },
+
+  "footer": {
+    "tagline": "Suivez notre aventure et rejoignez notre communauté",
+    "columns": {
+      "services": "Services & Contact",
+      "mentions": "Mentions"
+    },
+    "services": {
+      "community": "Community Management",
+      "creative": "Creative Energy",
+      "development": "Développement",
+      "seo": "SEO",
+      "contact": "Contact"
+    },
+    "mentions": {
+      "legal": "Mentions légales",
+      "privacy": "Politique de confidentialité",
+      "cgv": "Conditions générales de vente (CGV)",
+      "cgu": "Conditions générales d'utilisation (CGU)"
     }
   }
 }

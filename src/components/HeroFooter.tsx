@@ -12,15 +12,14 @@ export default function HeroFooter() {
                     className="absolute inset-x-0 bottom-0 h-[180px]"
                     style={{
                         background: `
-                    linear-gradient(
-                        to bottom,
-                        rgba(7,240,248,0) 0%,
-                        rgba(7,240,248,0.15) 20%,
-                        rgba(7,240,248,0.45) 45%,
-                        rgba(7,240,248,0.8) 75%,
-                        #07F0F8 100%
-                    )
-                `,
+                        linear-gradient(
+                            180deg,
+                            #000000 0%,
+                            #00011a 20%,
+                            #01064a 60%,
+                            #020B6A 100%
+                        )
+                    `,
                     }}
                 />
 

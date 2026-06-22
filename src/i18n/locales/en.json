@@ -1,4 +1,10 @@
 {
+  "navbar": {
+    "localisation": "Location",
+    "about": "About",
+    "contact": "Contact"
+  },
+
   "home": {
     "hero": {
       "title": "Scaling Brands, One Group, Infinite Growth.",
@@ -38,6 +44,27 @@
       { "initial": "A", "name": "First Last", "role": "Position", "quote": "The Sparkle by Jaws team is not only very attentive to their clients' needs, but also incredibly creative and professional. It's a pleasure working with them on the EDHEC Business School account." },
       { "initial": "A", "name": "First Last", "role": "Position", "quote": "The Sparkle by Jaws team is not only very attentive to their clients' needs, but also incredibly creative and professional. It's a pleasure working with them on the EDHEC Business School account." },
       { "initial": "A", "name": "First Last", "role": "Position", "quote": "The Sparkle by Jaws team is not only very attentive to their clients' needs, but also incredibly creative and professional. It's a pleasure working with them on the EDHEC Business School account." }
+    ]
+  },
+
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      {
+        "id": 1,
+        "question": "Why entrust your social media to Pulse X?",
+        "answer": "Because an effective social media presence can't be improvised. From strategy and content creation to advertising and analytics, every step matters. Pulse X brings all these areas of expertise together within a single team, with a constant commitment to quality. You benefit from consistent management of all your social media channels—Instagram, TikTok, and beyond—rather than scattered efforts."
+      },
+      {
+        "id": 2,
+        "question": "What services does Pulse X offer?",
+        "answer": "Pulse X covers your entire social media presence: editorial strategy, content creation, account management, digital advertising (Meta Ads, TikTok Ads), community engagement, and performance reporting. From conception to distribution, your communication is managed end-to-end, with a consistent voice across every platform."
+      },
+      {
+        "id": 3,
+        "question": "How does Pulse X grow my visibility and audience?",
+        "answer": "Our approach is based on data and iteration. We define your positioning, build a distinctive editorial strategy, and then produce content designed to maximize reach and engagement. Every action is measured, analyzed, and adjusted. The goal isn't just to rack up numbers, but to build a qualified, engaged audience that generates value."
+      }
     ]
   },
 
@@ -114,6 +141,7 @@
         "email": "Email",
         "subject": "Subject",
         "timeSlot": "Call time slot",
+        "callDay": "Preferred call day",
         "message": "Message"
       },
       "placeholders": {
@@ -122,10 +150,12 @@
         "phone": "+1 555 123 4567",
         "email": "john@example.com",
         "select": "Select…",
+        "callDay": "Sélectionnez un jour",
         "message": "Tell us how we can help…"
       },
       "subjects": ["SEO & Search Rankings", "Social Ads", "Content Marketing", "Analytics", "Other"],
       "timeSlots": ["9:30 – 10:30 AM", "10:30 – 11:30 AM", "11:30 AM – 12:30 PM", "2:00 – 3:00 PM", "3:00 – 4:00 PM", "4:00 – 5:00 PM", "5:00 – 6:00 PM"],
+      "callDays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
       "messages": {
         "callbackSuccess": "Request sent successfully!",
         "messageSuccess": "Message sent successfully!",
@@ -134,6 +164,28 @@
         "submitCallback": "Request a callback",
         "submitMessage": "Send message"
       }
+    }
+  },
+
+
+  "footer": {
+    "tagline": "Follow our journey and connect with our community",
+    "columns": {
+      "services": "Services & Contact",
+      "mentions": "Legal"
+    },
+    "services": {
+      "community": "Community Management",
+      "creative": "Creative Energy",
+      "development": "Development",
+      "seo": "SEO",
+      "contact": "Contact"
+    },
+    "mentions": {
+      "legal": "Legal notices",
+      "privacy": "Privacy policy",
+      "cgv": "General terms of sale (GTC)",
+      "cgu": "General terms of use (GTU)"
     }
   }
 }
