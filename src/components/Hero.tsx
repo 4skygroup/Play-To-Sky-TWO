@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import {Link} from "react-router-dom";
 
 export default function Hero() {
     const { t } = useTranslation();
@@ -10,10 +11,10 @@ export default function Hero() {
                   background: `
                     linear-gradient(
                         180deg,
-                        #00090a 0%,
-                        #01383a 20%,
-                        #05aeb5 60%,
-                        #07F0F8 100%
+                        #000000 0%,
+                        #000000 20%,
+                        #01074A 60%,
+                        #020B6A 100%
                     )
                 `,
             }}
@@ -37,19 +38,24 @@ export default function Hero() {
 
                     {/* Boutons */}
                     <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-6 sm:mt-8">
-                        <button className="px-6 py-2.5 rounded-full bg-white text-black
+                        <Link
+                            to="/contact"
+                            className="px-6 py-2.5 rounded-full bg-white text-black
                             shadow-[0_4px_0_rgba(0,0,0,0.6)] flex items-center justify-center gap-2
                             font-medium font-glacial text-t6 sm:text-t5 hover:bg-white/90 transition-colors whitespace-nowrap">
                             {t("home.hero.cta_project")}
                             <span>↘</span>
-                        </button>
+                        </Link>
 
-                        <button className="px-6 py-2.5 rounded-full bg-[#020B6A] text-black
+
+                        <Link
+                            to="/localisation"
+                            className="px-6 py-2.5 rounded-full bg-[#020B6A] text-white
                             shadow-[0_4px_0_rgba(0,0,0,0.6)] flex items-center justify-center gap-2
-                            font-medium font-glacial text-t6 sm:text-t5 hover:bg-white/90 transition-colors whitespace-nowrap">
+                            font-medium font-glacial text-t6 sm:text-t5 hover:bg-blue-800 transition-colors whitespace-nowrap">
                             {t("home.hero.cta_locations")}
                             <span>↘</span>
-                        </button>
+                        </Link>
                     </div>
 
                     {/* Stats */}

@@ -37,13 +37,18 @@
       }
     }
   },
+
   "testimonials": {
     "trustTitle": "La confiance des leaders du secteur",
     "trustSubtitle": "Découvrez ce que nos clients disent",
     "items": [
-      { "initial": "A", "name": "Nom Prénom", "role": "Poste", "quote": "L'équipe Sparkle by Jaws est non seulement très à l'écoute des besoins de ses clients, mais aussi incroyablement créative et professionnelle. C'est un plaisir de travailler avec eux sur le compte d'EDHEC Business School." },
-      { "initial": "A", "name": "Nom Prénom", "role": "Poste", "quote": "L'équipe Sparkle by Jaws est non seulement très à l'écoute des besoins de ses clients, mais aussi incroyablement créative et professionnelle. C'est un plaisir de travailler avec eux sur le compte d'EDHEC Business School." },
-      { "initial": "A", "name": "Nom Prénom", "role": "Poste", "quote": "L'équipe Sparkle by Jaws est non seulement très à l'écoute des besoins de ses clients, mais aussi incroyablement créative et professionnelle. C'est un plaisir de travailler avec eux sur le compte d'EDHEC Business School." }
+      { "initial": "S", "name": "Sarah L.", "role": "Fondatrice", "quote": "On avait besoin de structurer notre image de marque et tout a été beaucoup plus clair après leur accompagnement. Le fait de pouvoir tout centraliser via Play To Sky nous a vraiment simplifié les choses." },
+      { "initial": "K", "name": "Karim B.", "role": "CEO", "quote": "Très bonne expérience du début à la fin. L’équipe comprend vite les enjeux et propose des solutions concrètes. On sent qu’il y a une vraie réflexion derrière chaque décision." },
+      { "initial": "J", "name": "Julie M.", "role": "Responsable marketing", "quote": "Ce que j’ai apprécié, c’est la cohérence globale. On a travaillé sur le branding, le contenu et la stratégie digitale sans avoir à gérer plusieurs prestataires." },
+
+      { "initial": "T", "name": "Thomas R.", "role": "Entrepreneur", "quote": "On a gagné du temps et surtout en qualité. Tout est bien structuré, bien pensé. C’est rassurant d’avoir une équipe qui maîtrise autant de sujets." },
+      { "initial": "I", "name": "Inès D.", "role": "Cheffe de projet", "quote": "L’accompagnement est fluide et très professionnel. Ils sont à l’écoute et savent s’adapter à nos besoins, même quand le projet évolue en cours de route." },
+      { "initial": "M", "name": "Mehdi K.", "role": "Fondateur", "quote": "On sent qu’ils ne font pas juste de l’exécution. Il y a une vraie vision stratégique derrière, et ça change tout." }
     ]
   },
 
@@ -52,18 +57,53 @@
     "items": [
       {
         "id": 1,
-        "question": "Pourquoi confier vos réseaux sociaux à Pulse X ?",
-        "answer": "Parce qu'une présence efficace sur les réseaux sociaux ne s'improvise pas. De la stratégie à la création de contenu, en passant par la publicité et l'analyse, chaque étape compte. Pulse X réunit toutes ces expertises au sein d'une seule équipe, avec une exigence de qualité constante. Vous bénéficiez d'une gestion cohérente de tous vos canaux — Instagram, TikTok et bien d'autres — plutôt que d'actions dispersées."
+        "question": "Qu’est-ce que Play To Sky ?",
+        "answer": " Play To Sky est le portail central du groupe. Il permet de découvrir l’ensemble des agences et constitue le point d’entrée principal pour comprendre l’écosystème."
       },
       {
         "id": 2,
-        "question": "Quels services propose Pulse X ?",
-        "answer": "Pulse X couvre l'ensemble de votre présence sociale : stratégie éditoriale, création de contenu, gestion de comptes, publicité digitale (Meta Ads, TikTok Ads), animation de communauté et reporting de performance. De la conception à la diffusion, votre communication est gérée de bout en bout, avec une voix cohérente sur chaque plateforme."
+        "question": "Que regroupe le groupe Play To Sky ?",
+        "answer": "Le groupe rassemble plusieurs agences spécialisées dans le branding, le digital, l’IT, le contenu, les médias et la production, afin d’offrir une approche complète."
       },
       {
         "id": 3,
-        "question": "Comment Pulse X développe-t-il ma visibilité et mon audience ?",
-        "answer": "Notre approche repose sur la donnée et l'itération. Nous définissons votre positionnement, construisons une stratégie éditoriale distinctive, puis produisons des contenus pensés pour maximiser la portée et l'engagement. Chaque action est mesurée, analysée et ajustée. L'objectif n'est pas seulement de faire grossir des chiffres, mais de construire une audience qualifiée et engagée qui génère de la valeur."
+        "question": "À qui s’adresse Play To Sky ?",
+        "answer": "Play To Sky s’adresse aux entreprises, startups et marques qui souhaitent développer leur image, leur présence digitale ou leurs produits avec une approche globale."
+      },
+      {
+        "id": 4,
+        "question": "Comment fonctionne la collaboration ?",
+        "answer": "Après une prise de contact, les besoins sont analysés puis le projet est orienté vers l’agence la plus adaptée ou vers plusieurs entités si nécessaire."
+      },
+      {
+        "id": 5,
+        "question": "Peut-on travailler avec plusieurs agences du groupe ?",
+        "answer": "Oui, il est possible de mobiliser plusieurs entités pour construire une stratégie cohérente et complète."
+      },
+      {
+        "id": 6,
+        "question": "Pourquoi passer par Play To Sky ?",
+        "answer": "Play To Sky permet d’accéder à plusieurs expertises via un seul point de contact et d’assurer une cohérence globale entre les différents aspects d’un projet."
+      },
+      {
+        "id": 7,
+        "question": "Comment sont définis les tarifs ?",
+        "answer": "Les tarifs dépendent du projet, des objectifs et des agences impliquées. Une proposition personnalisée est réalisée après analyse des besoins."
+      },
+      {
+        "id": 8,
+        "question": "Proposez-vous un accompagnement global ?",
+        "answer": "Oui, le groupe peut accompagner un projet de bout en bout, de la création de marque à la mise en œuvre technique et marketing."
+      },
+      {
+        "id": 9,
+        "question": "Travaillez-vous à l’international ?",
+        "answer": "Oui, les agences du groupe peuvent intervenir sur des projets nationaux et internationaux."
+      },
+      {
+        "id": 10,
+        "question": "Quelle est la vision de Play To Sky ?",
+        "answer": "La vision est de construire des projets performants en combinant créativité, technologie et stratégie digitale."
       }
     ]
   },
@@ -72,6 +112,17 @@
     "title": "Bâtir vos succès digitaux autour des attentes de votre audience",
     "cta": "Démarrer un projet",
     "subtitle": "A 360° group of specialized agencies – brand, digital, media, IT and content."
+  },
+
+  "genesis": {
+    "badge": "Notre Groupe",
+    "title": "Leader du Digital et des Médias",
+    "description": "Play To Sky est un groupe à caractère familial fondé sur une vision d'excellence à 360°. Notre mission est d'assurer le développement à long terme de chacune de nos filiales, en propulsant leur singularité, leur identité et leur force sur le marché mondial. Porté par une exigence de performance, notre collectif repousse constamment les limites de la création, de la tech et de l'influence.",
+    "imageAlt": "groupe",
+    "stats": [
+      { "value": "360°", "label": "Stratégie Écosystème" },
+      { "value": "9+", "label": "Collaborateurs" }
+    ]
   },
 
   "governance": {
@@ -128,8 +179,8 @@
     "subtitle": "Nos experts vous accompagnent dans la définition d'une stratégie digitale alignée sur vos objectifs. Contactez-nous selon le mode d'échange qui vous convient le mieux.",
     "footerNote": "9 expertises complémentaires, un seul objectif : faire grandir votre entreprise.",
     "info": {
-      "email": { "label": "Email", "value": "contact@seofy.agency" },
-      "phone": { "label": "Téléphone", "value": "+33 1 23 45 67 89" },
+      "email": { "label": "Email", "value": "contact@playtosky.com" },
+      "phone": { "label": "Téléphone", "value": "01 30 29 30 25" },
       "hours": { "label": "Horaires", "value": "Lun–Ven · 9h30–19h00" }
     },
     "form": {
@@ -174,8 +225,8 @@
       "mentions": "Mentions"
     },
     "services": {
-      "community": "Community Management",
-      "creative": "Creative Energy",
+      "community": "Gestion de la communauté",
+      "creative": "Énergie créative",
       "development": "Développement",
       "seo": "SEO",
       "contact": "Contact"

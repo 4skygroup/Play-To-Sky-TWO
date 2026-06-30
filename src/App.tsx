@@ -6,6 +6,8 @@ import About from "./pages/About.tsx";
 import Contact from "./components/form/Contact.tsx";
 import Footer from "./components/footer/Footer.tsx";
 import ScrollToTop from "./components/ScrollToTop.tsx";
+import Locations from "./pages/Locations.tsx";
+import CreatedBy from "./components/CreatedBy.tsx";
 
 export default function App() {
   return (
@@ -14,11 +16,13 @@ export default function App() {
           <Navbar />
           <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/localisation" element={<Locations />} />
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
 
           </Routes>
           <Footer />
+          <CreatedBy />
       </div>
   );
 }

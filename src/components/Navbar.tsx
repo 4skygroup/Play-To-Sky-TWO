@@ -16,12 +16,18 @@ export default function Navbar() {
     return (
         <nav className="fixed top-0 left-0 right-0 z-50 bg-black flex items-center justify-between px-8 py-5">
 
-            {/* Logo */}
-            <NavLink to="/" className="shrink-0 ml-8">
+            {/* Logo : à gauche en mobile, centré par rapport au header en desktop */}
+            <NavLink
+                to="/"
+                className="shrink-0 md:absolute md:left-1/2 md:-translate-x-1/2"
+            >
                 <img src="/playToSky.png" alt="play to sky logo" className="h-6" />
             </NavLink>
 
-            <LangSwitcher />
+            {/* Lang switcher (desktop uniquement, à droite du logo dans le flux) */}
+            <div className="hidden md:block">
+                <LangSwitcher />
+            </div>
 
             {/* ── Desktop nav ── */}
             <ul className="hidden md:flex items-center gap-10">
@@ -41,7 +47,7 @@ export default function Navbar() {
                 ))}
             </ul>
 
-            {/* Hamburger */}
+            {/* Hamburger (mobile uniquement, à droite) */}
             <button
                 className={`md:hidden flex flex-col justify-center items-center gap-1.5 w-8 h-8 z-50 relative ${menuOpen ? "invisible" : ""}`}
                 onClick={() => setMenuOpen((prev) => !prev)}
@@ -73,6 +79,11 @@ export default function Navbar() {
                     <NavLink to="/" onClick={() => setMenuOpen(false)}>
                         <img src="/playToSky.png" alt="Pulse X" className="h-12" />
                     </NavLink>
+                </div>
+
+                {/* Lang switcher (mobile) */}
+                <div className="flex justify-center mb-10">
+                    <LangSwitcher />
                 </div>
 
                 {/* Items centrés */}

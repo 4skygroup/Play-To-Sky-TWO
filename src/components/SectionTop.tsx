@@ -24,7 +24,7 @@ export default function SectionTitle({ title }: SectionTitleProps) {
 
                 {/* Contenu */}
                 <div className="relative z-10 flex items-center justify-center px-6 py-12">
-                    <h2 className="font-glacial text-white text-h5 font-normal text-center">
+                    <h2 className="font-glacial text-white text-t3 md:text-h5 font-normal text-center">
                         {title}
                     </h2>
                 </div>

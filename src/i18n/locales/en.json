@@ -38,12 +38,16 @@
     }
   },
   "testimonials": {
-    "trustTitle": "Trust from industry leaders",
-    "trustSubtitle": "Discover what our clients say",
+    "trustTitle": "Trusted by industry leaders",
+    "trustSubtitle": "See what our clients have to say",
     "items": [
-      { "initial": "A", "name": "First Last", "role": "Position", "quote": "The Sparkle by Jaws team is not only very attentive to their clients' needs, but also incredibly creative and professional. It's a pleasure working with them on the EDHEC Business School account." },
-      { "initial": "A", "name": "First Last", "role": "Position", "quote": "The Sparkle by Jaws team is not only very attentive to their clients' needs, but also incredibly creative and professional. It's a pleasure working with them on the EDHEC Business School account." },
-      { "initial": "A", "name": "First Last", "role": "Position", "quote": "The Sparkle by Jaws team is not only very attentive to their clients' needs, but also incredibly creative and professional. It's a pleasure working with them on the EDHEC Business School account." }
+      { "initial": "S", "name": "Sarah L.", "role": "Founder", "quote": "We needed to structure our brand image, and everything became much clearer after their support. Being able to centralize everything through Play To Sky really simplified things for us." },
+      { "initial": "K", "name": "Karim B.", "role": "CEO", "quote": "Very good experience from start to finish. The team quickly understands the challenges and offers concrete solutions. You can feel there's real thought behind every decision." },
+      { "initial": "J", "name": "Julie M.", "role": "Marketing Manager", "quote": "What I appreciated was the overall consistency. We worked on branding, content, and digital strategy without having to manage multiple providers." },
+
+      { "initial": "T", "name": "Thomas R.", "role": "Entrepreneur", "quote": "We saved time and, more importantly, gained in quality. Everything is well structured and well thought out. It's reassuring to have a team that masters so many areas." },
+      { "initial": "I", "name": "Inès D.", "role": "Project Manager", "quote": "The support is smooth and very professional. They listen and know how to adapt to our needs, even as the project evolves along the way." },
+      { "initial": "M", "name": "Mehdi K.", "role": "Founder", "quote": "You can tell they don't just execute. There's a real strategic vision behind it, and that changes everything." }
     ]
   },
 
@@ -52,18 +56,53 @@
     "items": [
       {
         "id": 1,
-        "question": "Why entrust your social media to Pulse X?",
-        "answer": "Because an effective social media presence can't be improvised. From strategy and content creation to advertising and analytics, every step matters. Pulse X brings all these areas of expertise together within a single team, with a constant commitment to quality. You benefit from consistent management of all your social media channels—Instagram, TikTok, and beyond—rather than scattered efforts."
+        "question": "What is Play To Sky?",
+        "answer": "Play To Sky is the group's central portal. It allows you to discover all the agencies and serves as the main entry point for understanding the ecosystem."
       },
       {
         "id": 2,
-        "question": "What services does Pulse X offer?",
-        "answer": "Pulse X covers your entire social media presence: editorial strategy, content creation, account management, digital advertising (Meta Ads, TikTok Ads), community engagement, and performance reporting. From conception to distribution, your communication is managed end-to-end, with a consistent voice across every platform."
+        "question": "What does the Play To Sky group bring together?",
+        "answer": "The group brings together several agencies specialized in branding, digital, IT, content, media, and production, in order to offer a complete approach."
       },
       {
         "id": 3,
-        "question": "How does Pulse X grow my visibility and audience?",
-        "answer": "Our approach is based on data and iteration. We define your positioning, build a distinctive editorial strategy, and then produce content designed to maximize reach and engagement. Every action is measured, analyzed, and adjusted. The goal isn't just to rack up numbers, but to build a qualified, engaged audience that generates value."
+        "question": "Who is Play To Sky for?",
+        "answer": "Play To Sky is designed for companies, startups, and brands looking to develop their image, digital presence, or products with a comprehensive approach."
+      },
+      {
+        "id": 4,
+        "question": "How does the collaboration work?",
+        "answer": "After an initial contact, your needs are analyzed and the project is then directed to the most suitable agency, or to several entities if necessary."
+      },
+      {
+        "id": 5,
+        "question": "Can we work with several agencies in the group?",
+        "answer": "Yes, it is possible to bring together several entities to build a coherent and comprehensive strategy."
+      },
+      {
+        "id": 6,
+        "question": "Why go through Play To Sky?",
+        "answer": "Play To Sky gives you access to multiple areas of expertise through a single point of contact, ensuring overall consistency across the different aspects of a project."
+      },
+      {
+        "id": 7,
+        "question": "How are prices determined?",
+        "answer": "Pricing depends on the project, the objectives, and the agencies involved. A tailored proposal is provided after analyzing your needs."
+      },
+      {
+        "id": 8,
+        "question": "Do you offer end-to-end support?",
+        "answer": "Yes, the group can support a project from start to finish, from brand creation to technical and marketing implementation."
+      },
+      {
+        "id": 9,
+        "question": "Do you work internationally?",
+        "answer": "Yes, the group's agencies can work on both national and international projects."
+      },
+      {
+        "id": 10,
+        "question": "What is Play To Sky's vision?",
+        "answer": "The vision is to build high-performing projects by combining creativity, technology, and digital strategy."
       }
     ]
   },
@@ -72,6 +111,17 @@
     "title": "Building your digital success around your audience's expectations",
     "cta": "Start a project",
     "subtitle": "A 360° group of specialized agencies – brand, digital, media, IT and content."
+  },
+
+  "genesis": {
+    "badge": "Notre Groupe",
+    "title": "Leader du Digital et des Médias",
+    "description": "Play To Sky est un groupe à caractère familial fondé sur une vision d'excellence à 360°. Notre mission est d'assurer le développement à long terme de chacune de nos filiales, en propulsant leur singularité, leur identité et leur force sur le marché mondial. Porté par une exigence de performance, notre collectif repousse constamment les limites de la création, de la tech et de l'influence.",
+    "imageAlt": "groupe",
+    "stats": [
+      { "value": "360°", "label": "Stratégie Écosystème" },
+      { "value": "9+", "label": "Collaborateurs" }
+    ]
   },
 
   "governance": {
@@ -128,8 +178,8 @@
     "subtitle": "Our experts help you define a digital strategy aligned with your goals. Reach out through whichever channel suits you best.",
     "footerNote": "9 complementary areas of expertise, one goal: growing your business.",
     "info": {
-      "email": { "label": "Email", "value": "contact@seofy.agency" },
-      "phone": { "label": "Phone", "value": "+33 1 23 45 67 89" },
+      "email": { "label": "Email", "value": "contact@playtosky.com" },
+      "phone": { "label": "Phone", "value": "01 30 29 30 25" },
       "hours": { "label": "Hours", "value": "Mon–Fri · 9:30am–7:00pm" }
     },
     "form": {

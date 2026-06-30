@@ -28,11 +28,11 @@ export default function HeroFooter() {
                     {/* Contenu */}
                     <div className="relative z-10 flex flex-col items-center gap-8 md:gap-10 text-center max-w-4xl mx-auto">
 
-                        <h1 className="font-glacial font-bold text-white leading-tight text-h6 md:text-h5 lg:text-h5">
+                        <h1 className="font-glacial font-bold text-white leading-tight text-h6 md:text-h6 lg:text-h5">
                             {t("hero.title")}
                         </h1>
 
-                        <button className="font-glacial font-normal text-black bg-white rounded-full px-6 py-3 text-t4 flex items-center gap-2 hover:bg-white/90 transition-colors">
+                        <button className="font-glacial font-normal text-t6 md:text-t5 text-black bg-white rounded-full px-6 py-2 flex items-center gap-2 hover:bg-white/90 transition-colors">
                             {t("hero.cta")}
                             <span className="text-t3">↘</span>
                         </button>

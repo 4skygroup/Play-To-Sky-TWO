@@ -1,10 +1,9 @@
-import GouvernanceList from "../components/gouvernance/GouvernanceList.tsx";
-
+import Groupe from "../components/Groupe.tsx";
 
 export default function About() {
     return (
         <>
-            <GouvernanceList />
+            <Groupe />
         </>
     );
 }
