@@ -10,8 +10,8 @@
       "title": "Scaling Brands, One Group, Infinite Growth.",
       "subtitle": "Un groupe 360° d'agences spécialisées — brand, digital, médias, IT et contenu.",
       "cta_project": "Parlez nous de votre projet",
-      "cta_locations": "Paris Londres New York",
-      "stats": "9 agences, + de X clients satisfaits, + M€ de budget publicitaire"
+      "cta_locations": "Paris, Londres, New York",
+      "stats": "9 agences, + de 200 clients satisfaits, + 6€ de budget publicitaire"
     }
   },
   "acquisition": {
@@ -108,10 +108,10 @@
     ]
   },
 
-  "hero": {
+  "hero-bot": {
     "title": "Bâtir vos succès digitaux autour des attentes de votre audience",
     "cta": "Démarrer un projet",
-    "subtitle": "A 360° group of specialized agencies – brand, digital, media, IT and content."
+    "subtitle": "Un groupe offrant une gamme complète de services spécialisés : stratégie de marque, numérique, médias, informatique et contenu."
   },
 
   "genesis": {
@@ -125,53 +125,35 @@
     ]
   },
 
-  "governance": {
-    "title": "Gouvernance",
-    "letsTalk": "Lets talk",
-    "members": [
-      {
-        "name": "Rjay Agoh",
-        "role": "Global CEO & PMO, Stratégiste",
-        "linkedinUrl": "#",
-        "letsTalkUrl": "#"
-      },
-      {
-        "name": "Thierno Diallo",
-        "role": "Directeur des opérations",
-        "linkedinUrl": "#",
-        "letsTalkUrl": "#"
-      },
-      {
-        "name": "Koffi Félix Agoh",
-        "role": "Directeur financier",
-        "linkedinUrl": "#",
-        "letsTalkUrl": "#"
-      },
-      {
-        "name": "Aymard D",
-        "role": "Secrétaire Générale",
-        "linkedinUrl": "#",
-        "letsTalkUrl": "#"
-      },
-      {
-        "name": "Rjay Agoh",
-        "role": "Global CEO & PMO, Stratégiste",
-        "linkedinUrl": "#",
-        "letsTalkUrl": "#"
-      },
-      {
-        "name": "Thierno Diallo",
-        "role": "Directeur des opérations",
-        "linkedinUrl": "#",
-        "letsTalkUrl": "#"
-      },
-      {
-        "name": "Aymard D",
-        "role": "Secrétaire Générale",
-        "linkedinUrl": "#",
-        "letsTalkUrl": "#"
-      }
-    ]
+  "agences": {
+    "title": "The DNA of Excellence",
+    "subtitle": "Quatre piliers qui définissent chaque action au sein de notre groupe.",
+    "visuanceSeofy": {
+      "category": "Genèse",
+      "description": "Création de l'ADN de marque, de l'identité visuelle globale, rapidement renforcée par l'expertise SEO pour maximiser l'impact de recherche.",
+      "tag": "Design & visibilité"
+    },
+    "cybersky": {
+      "category": "Infrastructure",
+      "description": "Co-fondé pour structurer et sécuriser l'écosystème. Une entité dédiée à l'administration des réseaux IT et à la cybersécurité avancée.",
+      "tag": "Réseau & protection"
+    },
+    "pulsexSnackly": {
+      "category": "Influence",
+      "description": "Déploiement des stratégies social media de pointe et d'influence premium, associées à des formats ultra-courts de motion design.",
+      "tag": "Réseaux & création"
+    },
+    "drox360PlayToSky": {
+      "category": "Genèse",
+      "description": "Union de l'innovation (laboratoire Drox) et de la production audiovisuelle d'envergure. Production web et podcasts par excellence.",
+      "tag": "Design & visibilité"
+    }
+  },
+
+  "hero-bot-about": {
+    "title": "Façonnez l’avenir de la croissance avec nous.",
+    "cta": "Découvrir nos opportunités",
+    "subtitle": "Nous sommes constamment à la recherche de talents d’exception pour rejoindre nos entités spécialisées. Prêt à propulser votre carrière vers de nouveaux sommets ?"
   },
 
   "contact": {
@@ -236,6 +218,331 @@
       "privacy": "Politique de confidentialité",
       "cgv": "Conditions générales de vente (CGV)",
       "cgu": "Conditions générales d'utilisation (CGU)"
+    }
+  },
+
+  "legal": {
+    "mentions": {
+      "pageTitle": "Mentions Légales",
+      "sections": [
+        {
+          "title": "Éditeur du site",
+          "paragraphs": [
+            "Le site Play To Sky, accessible à l'adresse https://playtosky.com/, est édité par :"
+          ],
+          "list": [
+            "Société : Play To Sky",
+            "Directeur de publication : [Nom Prénom]"
+          ],
+          "links": [
+            {
+              "text": "Email :",
+              "href": "mailto:contact@playtosky.com"
+            }
+          ]
+        },
+        {
+          "title": "Hébergement",
+          "paragraphs": [
+            "Le site est hébergé par :"
+          ],
+          "list": [
+            "Hébergeur : OVH Cloud"
+          ],
+          "links": [
+            {
+              "text": "Site web :",
+              "href": "https://www.ovhcloud.com/"
+            }
+          ]
+        },
+        {
+          "title": "Propriété intellectuelle",
+          "paragraphs": [
+            "Tous les éléments du site sont protégés et ne peuvent être utilisés sans autorisation."
+          ]
+        },
+        {
+          "title": "Responsabilité",
+          "paragraphs": [
+            "L'éditeur ne peut être tenu responsable des dommages liés à l'utilisation du site."
+          ]
+        }
+      ]
+    },
+    "cgu": {
+      "pageTitle": "Conditions Générales d'Utilisation",
+      "sections": [
+        {
+          "title": "Objet",
+          "paragraphs": [
+            "Les présentes Conditions Générales d'Utilisation (CGU) ont pour objet de définir les modalités d'accès et d'utilisation du site Play To Sky, accessible à l'adresse https://playtosky.com/.",
+            "Le site constitue un portail institutionnel permettant de présenter les entités du groupe Play To Sky et d'orienter les utilisateurs vers ses différentes agences."
+          ]
+        },
+        {
+          "title": "Accès au site",
+          "paragraphs": [
+            "Le site est accessible gratuitement à tout utilisateur disposant d'un accès à Internet.",
+            "L'éditeur se réserve le droit de suspendre ou limiter l'accès au site à tout moment, sans préavis."
+          ]
+        },
+        {
+          "title": "Contenu du site",
+          "paragraphs": [
+            "Les informations diffusées sur le site sont fournies à titre informatif.",
+            "Play To Sky s'efforce d'assurer leur exactitude, sans garantir qu'elles soient complètes, à jour ou exemptes d'erreurs."
+          ]
+        },
+        {
+          "title": "Propriété intellectuelle",
+          "paragraphs": [
+            "L'ensemble des contenus présents sur le site (textes, images, graphismes, logos, vidéos, structure, design) est protégé par le droit de la propriété intellectuelle.",
+            "Toute reproduction, représentation ou exploitation, totale ou partielle, sans autorisation préalable est interdite."
+          ]
+        },
+        {
+          "title": "Liens vers les sites des entités",
+          "paragraphs": [
+            "Le site peut rediriger vers les sites des différentes entités du groupe (Visuance, Pulse X, etc.).",
+            "Play To Sky ne peut être tenu responsable du contenu ou du fonctionnement de ces sites tiers."
+          ]
+        },
+        {
+          "title": "Responsabilité",
+          "paragraphs": [
+            "Play To Sky ne pourra être tenu responsable :"
+          ],
+          "list": [
+            "Des interruptions du site",
+            "Des bugs ou erreurs techniques",
+            "De tout dommage résultant de l'utilisation du site"
+          ]
+        },
+        {
+          "title": "Données personnelles",
+          "paragraphs": [
+            "Les données personnelles sont traitées conformément à la politique de confidentialité disponible sur le site."
+          ]
+        },
+        {
+          "title": "Modification des CGU",
+          "paragraphs": [
+            "Play To Sky se réserve le droit de modifier les présentes CGU à tout moment."
+          ]
+        },
+        {
+          "title": "Droit applicable",
+          "paragraphs": [
+            "Les présentes CGU sont régies par le droit français."
+          ]
+        }
+      ]
+    },
+    "cgv": {
+      "pageTitle": "Conditions Générales de Vente",
+      "sections": [
+        {
+          "title": "Objet",
+          "paragraphs": [
+            "Les présentes CGV régissent les prestations pouvant être proposées via le site Play To Sky ou ses entités."
+          ]
+        },
+        {
+          "title": "Nature des prestations",
+          "paragraphs": [
+            "Les prestations peuvent inclure :"
+          ],
+          "list": [
+            "Branding et design",
+            "Marketing digital et publicité",
+            "Production de contenu",
+            "Développement web et solutions IT",
+            "Conseil stratégique"
+          ],
+          "footer": "Ces prestations sont réalisées par les entités du groupe."
+        },
+        {
+          "title": "Commande",
+          "paragraphs": [
+            "Toute prestation fait l'objet d'un devis détaillé.",
+            "La validation du devis vaut acceptation des CGV."
+          ]
+        },
+        {
+          "title": "Tarifs",
+          "paragraphs": [
+            "Les tarifs sont indiqués en euros (€) et définis selon la nature du projet.",
+            "Un acompte peut être exigé avant démarrage."
+          ]
+        },
+        {
+          "title": "Paiement",
+          "paragraphs": [
+            "Les modalités de paiement sont précisées dans le devis.",
+            "Tout retard de paiement entraîne :"
+          ],
+          "list": [
+            "Pénalités légales",
+            "Indemnité forfaitaire pour frais de recouvrement (40€)"
+          ]
+        },
+        {
+          "title": "Délais",
+          "paragraphs": [
+            "Les délais sont donnés à titre indicatif.",
+            "Ils peuvent être ajustés en fonction des échanges avec le client."
+          ]
+        },
+        {
+          "title": "Obligations du client",
+          "paragraphs": [
+            "Le client s'engage à :"
+          ],
+          "list": [
+            "Fournir les informations nécessaires",
+            "Respecter les délais de validation",
+            "Collaborer activement au projet"
+          ]
+        },
+        {
+          "title": "Responsabilité",
+          "paragraphs": [
+            "Play To Sky et ses entités sont soumis à une obligation de moyens.",
+            "Aucun résultat (SEO, performance publicitaire, etc.) ne peut être garanti."
+          ]
+        },
+        {
+          "title": "Propriété des livrables",
+          "paragraphs": [
+            "Les livrables restent la propriété de l'agence jusqu'au paiement complet.",
+            "Les droits sont cédés selon les conditions définies dans le devis."
+          ]
+        },
+        {
+          "title": "Résiliation",
+          "paragraphs": [
+            "En cas d'annulation, les sommes engagées restent dues."
+          ]
+        },
+        {
+          "title": "Litiges",
+          "paragraphs": [
+            "Tout litige sera soumis aux tribunaux compétents du ressort du siège social."
+          ]
+        }
+      ]
+    },
+    "confidentialite": {
+      "pageTitle": "Politique de Confidentialité (RGPD)",
+      "sections": [
+        {
+          "title": "Responsable du traitement",
+          "paragraphs": [
+            "Le responsable du traitement est Play To Sky."
+          ],
+          "links": [
+            {
+              "text": "Email :",
+              "href": "mailto:contact@playtosky.com"
+            }
+          ]
+        },
+        {
+          "title": "Données collectées",
+          "paragraphs": [
+            "Les données collectées peuvent inclure :"
+          ],
+          "list": [
+            "Nom et prénom",
+            "Adresse email",
+            "Numéro de téléphone",
+            "Informations transmises via formulaire"
+          ]
+        },
+        {
+          "title": "Finalités du traitement",
+          "paragraphs": [
+            "Les données sont collectées pour :"
+          ],
+          "list": [
+            "Répondre aux demandes",
+            "Gérer les relations commerciales",
+            "Améliorer les services"
+          ]
+        },
+        {
+          "title": "Base légale",
+          "paragraphs": [
+            "Les traitements reposent sur :"
+          ],
+          "list": [
+            "Le consentement",
+            "L'exécution d'un contrat",
+            "L'intérêt légitime"
+          ]
+        },
+        {
+          "title": "Durée de conservation",
+          "paragraphs": [
+            "Les données sont conservées :"
+          ],
+          "list": [
+            "3 ans après le dernier contact pour les prospects",
+            "Durée contractuelle pour les clients"
+          ]
+        },
+        {
+          "title": "Destinataires",
+          "paragraphs": [
+            "Les données peuvent être transmises à des prestataires techniques (hébergement, outils marketing).",
+            "Elles ne sont pas vendues."
+          ]
+        },
+        {
+          "title": "Sécurité",
+          "paragraphs": [
+            "Des mesures techniques et organisationnelles sont mises en place pour protéger les données."
+          ]
+        },
+        {
+          "title": "Vos droits",
+          "paragraphs": [
+            "Conformément au RGPD, vous disposez des droits suivants :"
+          ],
+          "list": [
+            "Accès",
+            "Rectification",
+            "Suppression",
+            "Limitation",
+            "Opposition"
+          ],
+          "footer": "Vous pouvez exercer vos droits via :",
+          "links": [
+            {
+              "text": "",
+              "href": "mailto:contact@playtosky.com"
+            }
+          ]
+        },
+        {
+          "title": "Cookies",
+          "paragraphs": [
+            "Le site utilise des cookies pour :"
+          ],
+          "list": [
+            "Mesurer l'audience",
+            "Améliorer l'expérience utilisateur"
+          ],
+          "footer": "Un bandeau de gestion des cookies permet à l'utilisateur d'accepter ou refuser leur utilisation."
+        },
+        {
+          "title": "Droit applicable",
+          "paragraphs": [
+            "La présente politique est régie par le droit français."
+          ]
+        }
+      ]
     }
   }
 }

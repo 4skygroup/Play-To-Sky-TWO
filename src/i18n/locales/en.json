@@ -10,8 +10,8 @@
       "title": "Scaling Brands, One Group, Infinite Growth.",
       "subtitle": "A 360° group of specialized agencies — brand, digital, media, IT and content.",
       "cta_project": "Tell us about your project",
-      "cta_locations": "Paris London New York",
-      "stats": "9 agencies, X+ satisfied clients, M€+ in managed ad spend"
+      "cta_locations": "Paris, London, New York",
+      "stats": "9 agencies, 200+ satisfied clients, 6€+ in managed ad spend"
     }
   },
   "acquisition": {
@@ -107,70 +107,52 @@
     ]
   },
 
-  "hero": {
+  "hero-bot": {
     "title": "Building your digital success around your audience's expectations",
     "cta": "Start a project",
     "subtitle": "A 360° group of specialized agencies – brand, digital, media, IT and content."
   },
 
   "genesis": {
-    "badge": "Notre Groupe",
-    "title": "Leader du Digital et des Médias",
-    "description": "Play To Sky est un groupe à caractère familial fondé sur une vision d'excellence à 360°. Notre mission est d'assurer le développement à long terme de chacune de nos filiales, en propulsant leur singularité, leur identité et leur force sur le marché mondial. Porté par une exigence de performance, notre collectif repousse constamment les limites de la création, de la tech et de l'influence.",
-    "imageAlt": "groupe",
+    "badge": "Our Group",
+    "title": "Leader in Digital and Media",
+    "description": "Play To Sky is a family-owned group built on a 360° vision of excellence. Our mission is to ensure the long-term growth of each of our subsidiaries by amplifying their uniqueness, identity, and strengths in the global market. Driven by a commitment to performance, our collective continuously pushes the boundaries of creativity, technology, and influence.",
+    "imageAlt": "group",
     "stats": [
-      { "value": "360°", "label": "Stratégie Écosystème" },
-      { "value": "9+", "label": "Collaborateurs" }
+      { "value": "360°", "label": "Ecosystem Strategy" },
+      { "value": "9+", "label": "Team Members" }
     ]
   },
 
-  "governance": {
-    "title": "Governance",
-    "letsTalk": "Let's Talk",
-    "members": [
-      {
-        "name": "Rjay Agoh",
-        "role": "Global CEO & PMO, Strategist",
-        "linkedinUrl": "#",
-        "letsTalkUrl": "#"
-      },
-      {
-        "name": "Thierno Diallo",
-        "role": "Chief Operations Officer",
-        "linkedinUrl": "#",
-        "letsTalkUrl": "#"
-      },
-      {
-        "name": "Koffi Félix Agoh",
-        "role": "Chief Financial Officer",
-        "linkedinUrl": "#",
-        "letsTalkUrl": "#"
-      },
-      {
-        "name": "Aymard D",
-        "role": "Secretary General",
-        "linkedinUrl": "#",
-        "letsTalkUrl": "#"
-      },
-      {
-        "name": "Rjay Agoh",
-        "role": "Global CEO & PMO, Strategist",
-        "linkedinUrl": "#",
-        "letsTalkUrl": "#"
-      },
-      {
-        "name": "Thierno Diallo",
-        "role": "Chief Operations Officer",
-        "linkedinUrl": "#",
-        "letsTalkUrl": "#"
-      },
-      {
-        "name": "Aymard D",
-        "role": "Secretary General",
-        "linkedinUrl": "#",
-        "letsTalkUrl": "#"
-      }
-    ]
+  "agences": {
+    "title": "The DNA of Excellence",
+    "subtitle": "Four pillars that define every action across our group.",
+    "visuanceSeofy": {
+      "category": "Foundation",
+      "description": "Building each brand's DNA and visual identity, quickly strengthened by SEO expertise to maximize search visibility and impact.",
+      "tag": "Design & Visibility"
+    },
+    "cybersky": {
+      "category": "Infrastructure",
+      "description": "Co-founded to structure and secure the ecosystem. A dedicated entity focused on IT network administration and advanced cybersecurity.",
+      "tag": "Networks & Security"
+    },
+    "pulsexSnackly": {
+      "category": "Influence",
+      "description": "Delivering cutting-edge social media and premium influencer strategies, combined with ultra-short motion design content.",
+      "tag": "Social Media & Creative"
+    },
+    "drox360PlayToSky": {
+      "category": "Foundation",
+      "description": "Bringing together innovation (Drox Lab) and large-scale audiovisual production. Delivering premium web productions and podcasts.",
+      "tag": "Design & Visibility"
+    }
+  },
+
+  "hero-bot-about": {
+    "title": "Shape the future of growth with us.",
+    "cta": "Explore Opportunities",
+    "subtitle": "We are always looking for exceptional talent to join our specialized units. Ready to elevate your\ncareer to the sky?"
   },
 
   "contact": {
@@ -236,6 +218,331 @@
       "privacy": "Privacy policy",
       "cgv": "General terms of sale (GTC)",
       "cgu": "General terms of use (GTU)"
+    }
+  },
+
+  "legal": {
+    "mentions": {
+      "pageTitle": "Legal Notice",
+      "sections": [
+        {
+          "title": "Publisher",
+          "paragraphs": [
+            "The Play To Sky website, accessible at https://playtosky.com/, is published by:"
+          ],
+          "list": [
+            "Company: Play To Sky",
+            "Publication director: [Name]"
+          ],
+          "links": [
+            {
+              "text": "Email:",
+              "href": "mailto:contact@playtosky.com"
+            }
+          ]
+        },
+        {
+          "title": "Hosting",
+          "paragraphs": [
+            "The website is hosted by:"
+          ],
+          "list": [
+            "Host: OVH Cloud"
+          ],
+          "links": [
+            {
+              "text": "Website:",
+              "href": "https://www.ovhcloud.com/"
+            }
+          ]
+        },
+        {
+          "title": "Intellectual Property",
+          "paragraphs": [
+            "All elements of the website are protected and may not be used without authorization."
+          ]
+        },
+        {
+          "title": "Liability",
+          "paragraphs": [
+            "The publisher cannot be held liable for damages related to the use of the website."
+          ]
+        }
+      ]
+    },
+    "cgu": {
+      "pageTitle": "Terms of Use",
+      "sections": [
+        {
+          "title": "Purpose",
+          "paragraphs": [
+            "These Terms of Use govern access to and use of the Play To Sky website, accessible at https://playtosky.com/.",
+            "The website serves as an institutional portal presenting the entities of the Play To Sky group and directing users to its various agencies."
+          ]
+        },
+        {
+          "title": "Access to the Website",
+          "paragraphs": [
+            "The website is freely accessible to any user with internet access.",
+            "The publisher reserves the right to suspend or restrict access to the website at any time, without notice."
+          ]
+        },
+        {
+          "title": "Website Content",
+          "paragraphs": [
+            "The information published on the website is provided for informational purposes only.",
+            "Play To Sky strives to ensure its accuracy but cannot guarantee that it is complete, up to date, or error-free."
+          ]
+        },
+        {
+          "title": "Intellectual Property",
+          "paragraphs": [
+            "All content on the website (texts, images, graphics, logos, videos, structure, design) is protected by intellectual property law.",
+            "Any reproduction, representation, or use, in whole or in part, without prior authorization is prohibited."
+          ]
+        },
+        {
+          "title": "Links to Entity Websites",
+          "paragraphs": [
+            "The website may redirect to the websites of the group's various entities (Visuance, Pulse X, etc.).",
+            "Play To Sky cannot be held responsible for the content or operation of these third-party websites."
+          ]
+        },
+        {
+          "title": "Liability",
+          "paragraphs": [
+            "Play To Sky cannot be held responsible for:"
+          ],
+          "list": [
+            "Website interruptions",
+            "Bugs or technical errors",
+            "Any damage resulting from use of the website"
+          ]
+        },
+        {
+          "title": "Personal Data",
+          "paragraphs": [
+            "Personal data is processed in accordance with the privacy policy available on the website."
+          ]
+        },
+        {
+          "title": "Changes to These Terms",
+          "paragraphs": [
+            "Play To Sky reserves the right to modify these Terms of Use at any time."
+          ]
+        },
+        {
+          "title": "Governing Law",
+          "paragraphs": [
+            "These Terms of Use are governed by French law."
+          ]
+        }
+      ]
+    },
+    "cgv": {
+      "pageTitle": "Terms and Conditions of Sale",
+      "sections": [
+        {
+          "title": "Purpose",
+          "paragraphs": [
+            "These Terms and Conditions of Sale govern the services offered via the Play To Sky website or its entities."
+          ]
+        },
+        {
+          "title": "Nature of Services",
+          "paragraphs": [
+            "Services may include:"
+          ],
+          "list": [
+            "Branding and design",
+            "Digital marketing and advertising",
+            "Content production",
+            "Web development and IT solutions",
+            "Strategic consulting"
+          ],
+          "footer": "These services are carried out by the group's entities."
+        },
+        {
+          "title": "Order",
+          "paragraphs": [
+            "Any service is subject to a detailed quote.",
+            "Validation of the quote constitutes acceptance of these Terms."
+          ]
+        },
+        {
+          "title": "Pricing",
+          "paragraphs": [
+            "Prices are quoted in euros (€) and set according to the nature of the project.",
+            "A deposit may be required before work begins."
+          ]
+        },
+        {
+          "title": "Payment",
+          "paragraphs": [
+            "Payment terms are specified in the quote.",
+            "Any late payment results in:"
+          ],
+          "list": [
+            "Legal penalties",
+            "A fixed collection fee (€40)"
+          ]
+        },
+        {
+          "title": "Timelines",
+          "paragraphs": [
+            "Timelines are given as an indication.",
+            "They may be adjusted based on discussions with the client."
+          ]
+        },
+        {
+          "title": "Client Obligations",
+          "paragraphs": [
+            "The client agrees to:"
+          ],
+          "list": [
+            "Provide the necessary information",
+            "Meet validation deadlines",
+            "Actively collaborate on the project"
+          ]
+        },
+        {
+          "title": "Liability",
+          "paragraphs": [
+            "Play To Sky and its entities are bound by an obligation of means.",
+            "No outcome (SEO, advertising performance, etc.) can be guaranteed."
+          ]
+        },
+        {
+          "title": "Ownership of Deliverables",
+          "paragraphs": [
+            "Deliverables remain the property of the agency until full payment is received.",
+            "Rights are transferred according to the terms defined in the quote."
+          ]
+        },
+        {
+          "title": "Termination",
+          "paragraphs": [
+            "In the event of cancellation, amounts already committed remain due."
+          ]
+        },
+        {
+          "title": "Disputes",
+          "paragraphs": [
+            "Any dispute will be submitted to the competent courts of the registered office's jurisdiction."
+          ]
+        }
+      ]
+    },
+    "confidentialite": {
+      "pageTitle": "Privacy Policy (GDPR)",
+      "sections": [
+        {
+          "title": "Data Controller",
+          "paragraphs": [
+            "The data controller is Play To Sky."
+          ],
+          "links": [
+            {
+              "text": "Email:",
+              "href": "mailto:contact@playtosky.com"
+            }
+          ]
+        },
+        {
+          "title": "Data Collected",
+          "paragraphs": [
+            "The data collected may include:"
+          ],
+          "list": [
+            "First and last name",
+            "Email address",
+            "Phone number",
+            "Information submitted via forms"
+          ]
+        },
+        {
+          "title": "Purpose of Processing",
+          "paragraphs": [
+            "Data is collected in order to:"
+          ],
+          "list": [
+            "Respond to inquiries",
+            "Manage business relationships",
+            "Improve our services"
+          ]
+        },
+        {
+          "title": "Legal Basis",
+          "paragraphs": [
+            "Processing is based on:"
+          ],
+          "list": [
+            "Consent",
+            "Performance of a contract",
+            "Legitimate interest"
+          ]
+        },
+        {
+          "title": "Retention Period",
+          "paragraphs": [
+            "Data is retained:"
+          ],
+          "list": [
+            "For 3 years after the last contact, for prospects",
+            "For the duration of the contract, for clients"
+          ]
+        },
+        {
+          "title": "Recipients",
+          "paragraphs": [
+            "Data may be shared with technical service providers (hosting, marketing tools).",
+            "It is never sold."
+          ]
+        },
+        {
+          "title": "Security",
+          "paragraphs": [
+            "Technical and organizational measures are in place to protect the data."
+          ]
+        },
+        {
+          "title": "Your Rights",
+          "paragraphs": [
+            "In accordance with the GDPR, you have the following rights:"
+          ],
+          "list": [
+            "Access",
+            "Rectification",
+            "Erasure",
+            "Restriction",
+            "Objection"
+          ],
+          "footer": "You may exercise your rights via:",
+          "links": [
+            {
+              "text": "",
+              "href": "mailto:contact@playtosky.com"
+            }
+          ]
+        },
+        {
+          "title": "Cookies",
+          "paragraphs": [
+            "The website uses cookies to:"
+          ],
+          "list": [
+            "Measure audience",
+            "Improve user experience"
+          ],
+          "footer": "A cookie banner allows users to accept or decline their use."
+        },
+        {
+          "title": "Governing Law",
+          "paragraphs": [
+            "This policy is governed by French law."
+          ]
+        }
+      ]
     }
   }
 }

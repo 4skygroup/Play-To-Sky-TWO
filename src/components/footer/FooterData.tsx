@@ -4,17 +4,17 @@ export const useFooterData = () => {
     const { t } = useTranslation();
 
     const services = [
-        { label: t("footer.services.community"), href: "" },
-        { label: t("footer.services.creative"), href: "" },
-        { label: t("footer.services.development"), href: "" },
+        { label: t("footer.services.community"), href: "https://www.pulsexagency.com/" },
+        { label: t("footer.services.creative"), href: "https://drox360.com/" },
+        { label: t("footer.services.development"), href: "https://www.visuanceagency.com/" },
         { label: t("footer.services.seo"), href: "https://seofyagency.com/" },
     ];
 
     const mentions = [
-        { label: t("footer.mentions.legal"), href: "/projets" },
-        { label: t("footer.mentions.privacy"), href: "/about" },
-        { label: t("footer.mentions.cgv"), href: "/contact" },
-        { label: t("footer.mentions.cgu"), href: "/contact" },
+        { label: t("footer.mentions.legal"), href: "/mentions-legal" },
+        { label: t("footer.mentions.privacy"), href: "/politique-confidentialite" },
+        { label: t("footer.mentions.cgv"), href: "/conditions-vente" },
+        { label: t("footer.mentions.cgu"), href: "/conditions-utilisation" },
     ];
 
     return { services, mentions };

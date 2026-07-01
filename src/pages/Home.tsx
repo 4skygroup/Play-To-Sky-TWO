@@ -6,6 +6,7 @@ import SliderInfini, {type Logo} from "../components/SliderInfini.tsx";
 import HeroFooter from "../components/HeroFooter.tsx";
 import SectionTop from "../components/SectionTop.tsx";
 import Faq from "../components/faq/Faq.tsx";
+import LogosList from "../components/LogosList.tsx";
 
 export default function Home() {
     const partenaires: Logo[] = [
@@ -20,12 +21,10 @@ export default function Home() {
     ];
 
     const clients: Logo[] = [
-        { id: 1, src: "/logo/tiktok.png", alt: "tiktol" },
-        { id: 2, src: "/logo/meta.png", alt: "meta" },
-        { id: 3, src: "/logo/tiktok.png", alt: "tiktol" },
-        { id: 4, src: "/logo/meta.png", alt: "meta" },
-        { id: 5, src: "/logo/tiktok.png", alt: "tiktol" },
-        { id: 6, src: "/logo/meta.png", alt: "meta" },
+        { id: 1, src: "/logo/meta.png", alt: "meta" },
+        { id: 2, src: "/logo/tiktok.png", alt: "tiktok" },
+        { id: 3, src: "/logo/youtube.png", alt: "youtube" },
+        { id: 4, src: "/logo/google.png", alt: "google" },
     ];
 
     return (
@@ -37,9 +36,9 @@ export default function Home() {
             <FeatureList />
             <TestimonialList />
             <SectionTop title="Accrédité par les leaders mondiaux du digital" />
-            <SliderInfini logos={clients} />
+            <LogosList logos={clients} />
             <Faq />
-            <HeroFooter />
+            <HeroFooter titleKey="hero-bot.title" ctaKey="hero-bot.cta" subtitleKey="hero-bot.subtitle" />
         </>
     );
 }

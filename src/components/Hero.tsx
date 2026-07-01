@@ -50,9 +50,9 @@ export default function Hero() {
 
                         <Link
                             to="/localisation"
-                            className="px-6 py-2.5 rounded-full bg-[#020B6A] text-white
+                            className="px-6 py-2.5 rounded-full text-white border-1
                             shadow-[0_4px_0_rgba(0,0,0,0.6)] flex items-center justify-center gap-2
-                            font-medium font-glacial text-t6 sm:text-t5 hover:bg-blue-800 transition-colors whitespace-nowrap">
+                            font-medium font-glacial text-t6 sm:text-t5 transition-colors whitespace-nowrap">
                             {t("home.hero.cta_locations")}
                             <span>↘</span>
                         </Link>

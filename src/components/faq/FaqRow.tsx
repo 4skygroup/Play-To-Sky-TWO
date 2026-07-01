@@ -15,7 +15,7 @@ const ChevronIcon = ({ isOpen }: { isOpen: boolean }) => (
     >
         <path
             d="M5 7.5L10 12.5L15 7.5"
-            stroke="#F23333"
+            stroke="#FFFFFF"
             strokeWidth="1.5"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -60,7 +60,7 @@ const FAQRow = ({
                     opacity: isOpen ? 1 : 0,
                 }}
             >
-                <p className="font-glacial text-t5 text-pulse-x-subtitle-gray pb-5 leading-relaxed">
+                <p className="font-glacial text-t5 text-white pb-5 leading-relaxed">
                     {item.answer}
                 </p>
             </div>
