@@ -8,7 +8,7 @@ export default function Groupe() {
         <section className="bg-black py-16 px-6 md:py-24 md:px-12 lg:px-20">
             <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
                 <div className="relative rounded-3xl overflow-hidden aspect-[4/3] w-full">
-                    <img src="/aboutGroupe.png" alt={t("genesis.imageAlt")} className="w-full h-full object-cover" />
+                    <img src="/about.jpg" alt={t("genesis.imageAlt")} className="w-full h-full object-cover" />
                 </div>
 
                 <div className="flex flex-col gap-6">
