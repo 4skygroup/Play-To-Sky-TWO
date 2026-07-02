@@ -109,11 +109,11 @@
   },
 
   "gouvernance": {
-    "title": "Governance",
-    "desc1": "Global CEO & PMO, Strategist",
-    "desc2": "Operations Director",
-    "desc3": "Executive Financial Director",
-    "desc4": "Senior General Secretary"
+    "title": "Gouvernance",
+    "desc1": "Global CEO & PMO, Stratégiste",
+    "desc2": "Directeur des opérations",
+    "desc3": "Directeur financier Exécutive",
+    "desc4": "Secrétaire Générale Principale"
   },
 
   "hero-bot": {
@@ -552,6 +552,9 @@
         }
       ]
     }
+  },
+  "footer-bas" : {
+    "desc" : "Créé par"
   }
 }
 
