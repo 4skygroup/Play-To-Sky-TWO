@@ -12,13 +12,13 @@ const slides: Slide[] = [
     { src: "/carousel/pulseX.webp", bg: "#ffffff", border: "#ffffff", href:"https://www.pulsexagency.com/"},
     { src: "/carousel/pulseXManagement.webp", bg: "#EF5A98", border: "#ffffff" , href:"https://www.pulsexmanagement.com/"},
 
-    { src: "/carousel/snackly.webp", bg: "#7209B7", border: "#ffffff" , href:"https://snacklyagency.com/"},
-    { src: "/carousel/seofy.webp", bg: "#11676A", border: "#ffffff" , href:"https://www.seofyagency.com/"},
-    { src: "/carousel/drox360.webp", bg: "#FC64IC", border: "#ffffff" , href:"https://drox360.com/"},
+    { src: "/carousel/snackly.png", bg: "#7209B7", border: "#ffffff" , href:"https://snacklyagency.com/"},
+    { src: "/carousel/seofy.png", bg: "#11676A", border: "#ffffff" , href:"https://www.seofyagency.com/"},
+    { src: "/carousel/drox.png", bg: "#FC64IC", border: "#ffffff" , href:"https://drox360.com/"},
 
-    { src: "/carousel/skyToBeMedia.webp", bg: "#111E85", border: "#ffffff" , href:"https://www.skytobemedia.com/"},
-    { src: "/carousel/playToSkyProd.webp", bg: "#171717", border: "#ffffff" , href:"https://www.playtoskyproductions.com/"},
-    { src: "/carousel/cybersky.webp", bg: "#F23333", border: "#ffffff" , href:"https://www.cyberskyagency.com/"},
+    { src: "/carousel/playToSkyProd.png", bg: "#171717", border: "#ffffff" , href:"https://www.playtoskyproductions.com/"},
+    { src: "/carousel/skyToBeMedia.png", bg: "#111E85", border: "#ffffff" , href:"https://www.skytobemedia.com/"},
+    { src: "/carousel/cybersky.png", bg: "#F23333", border: "#ffffff" , href:"https://www.cyberskyagency.com/"},
 ];
 
 export default function Carousel() {
