@@ -11,7 +11,7 @@
       "subtitle": "Un groupe 360° d'agences spécialisées — brand, digital, médias, IT et contenu.",
       "cta_project": "Parlez nous de votre projet",
       "cta_locations": "Paris, Londres, New York",
-      "stats": "9 agences, + de 200 clients satisfaits, + 6€ de budget publicitaire"
+      "stats": "9 agences, + de 200 clients satisfaits, + 6M€ de budget publicitaire"
     }
   },
   "acquisition": {
@@ -106,6 +106,14 @@
         "answer": "La vision est de construire des projets performants en combinant créativité, technologie et stratégie digitale."
       }
     ]
+  },
+
+  "gouvernance": {
+    "title": "Governance",
+    "desc1": "Global CEO & PMO, Strategist",
+    "desc2": "Operations Director",
+    "desc3": "Executive Financial Director",
+    "desc4": "Senior General Secretary"
   },
 
   "hero-bot": {

@@ -11,7 +11,7 @@
       "subtitle": "A 360° group of specialized agencies — brand, digital, media, IT and content.",
       "cta_project": "Tell us about your project",
       "cta_locations": "Paris, London, New York",
-      "stats": "9 agencies, 200+ satisfied clients, 6€+ in managed ad spend"
+      "stats": "9 agencies, 200+ satisfied clients, 6M€+ in managed ad spend"
     }
   },
   "acquisition": {
@@ -153,6 +153,14 @@
     "title": "Shape the future of growth with us.",
     "cta": "Explore Opportunities",
     "subtitle": "We are always looking for exceptional talent to join our specialized units. Ready to elevate your\ncareer to the sky?"
+  },
+
+  "gouvernance": {
+    "title": "Gouvernance",
+    "desc1": "Global CEO & PMO, Stratégiste",
+    "desc2": "Directeur des opérations",
+    "desc3": "Directeur financier Exécutive",
+    "desc4": "Secrétaire Générale Principale"
   },
 
   "contact": {
