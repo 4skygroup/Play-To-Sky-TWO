@@ -7,11 +7,28 @@
 
   "home": {
     "hero": {
-      "title": "Scaling Brands, One Group, Infinite Growth.",
+      "title": {
+        "part1": "Scaling Brands,",
+        "part2": " One Group,",
+        "part3": " Infinite Growth."
+      },
       "subtitle": "A 360° group of specialized agencies — brand, digital, media, IT and content.",
       "cta_project": "Tell us about your project",
       "cta_locations": "Paris, London, New York",
       "stats": "9 agencies, 200+ satisfied clients, 6M€+ in managed ad spend"
+    }
+  },
+  "carousel": {
+    "descriptions": {
+      "visuance": "Brand Design and Identity",
+      "pulse-x": "Social Agency - Media and Community Management",
+      "pulse-x-management": "Influence Agency and Content Creator",
+      "snackly": "Snack Content Agency",
+      "seofy": "Search Engines (SEO) Agency of AI and Media Buying SEA, Social Ads and Programmatic",
+      "drox360": "Creative Energy Agency - Innovative",
+      "play-to-sky-productions": "Movies Production Society",
+      "sky-to-be-media": "Media Production Society",
+      "cybersky": "IT Solutions and solutions for corporations"
     }
   },
   "acquisition": {
@@ -41,13 +58,43 @@
     "trustTitle": "Trusted by industry leaders",
     "trustSubtitle": "See what our clients have to say",
     "items": [
-      { "initial": "S", "name": "Sarah L.", "role": "Founder", "quote": "We needed to structure our brand image, and everything became much clearer after their support. Being able to centralize everything through Play To Sky really simplified things for us." },
-      { "initial": "K", "name": "Karim B.", "role": "CEO", "quote": "Very good experience from start to finish. The team quickly understands the challenges and offers concrete solutions. You can feel there's real thought behind every decision." },
-      { "initial": "J", "name": "Julie M.", "role": "Marketing Manager", "quote": "What I appreciated was the overall consistency. We worked on branding, content, and digital strategy without having to manage multiple providers." },
+      {
+        "initial": "S",
+        "name": "Sarah L.",
+        "role": "Founder",
+        "quote": "We needed to structure our brand image, and everything became much clearer after their support. Being able to centralize everything through Play To Sky really simplified things for us."
+      },
+      {
+        "initial": "K",
+        "name": "Karim B.",
+        "role": "CEO",
+        "quote": "Very good experience from start to finish. The team quickly understands the challenges and offers concrete solutions. You can feel there's real thought behind every decision."
+      },
+      {
+        "initial": "J",
+        "name": "Julie M.",
+        "role": "Marketing Manager",
+        "quote": "What I appreciated was the overall consistency. We worked on branding, content, and digital strategy without having to manage multiple providers."
+      },
 
-      { "initial": "T", "name": "Thomas R.", "role": "Entrepreneur", "quote": "We saved time and, more importantly, gained in quality. Everything is well structured and well thought out. It's reassuring to have a team that masters so many areas." },
-      { "initial": "I", "name": "Inès D.", "role": "Project Manager", "quote": "The support is smooth and very professional. They listen and know how to adapt to our needs, even as the project evolves along the way." },
-      { "initial": "M", "name": "Mehdi K.", "role": "Founder", "quote": "You can tell they don't just execute. There's a real strategic vision behind it, and that changes everything." }
+      {
+        "initial": "T",
+        "name": "Thomas R.",
+        "role": "Entrepreneur",
+        "quote": "We saved time and, more importantly, gained in quality. Everything is well structured and well thought out. It's reassuring to have a team that masters so many areas."
+      },
+      {
+        "initial": "I",
+        "name": "Inès D.",
+        "role": "Project Manager",
+        "quote": "The support is smooth and very professional. They listen and know how to adapt to our needs, even as the project evolves along the way."
+      },
+      {
+        "initial": "M",
+        "name": "Mehdi K.",
+        "role": "Founder",
+        "quote": "You can tell they don't just execute. There's a real strategic vision behind it, and that changes everything."
+      }
     ]
   },
 
@@ -193,8 +240,22 @@
         "callDay": "Sélectionnez un jour",
         "message": "Tell us how we can help…"
       },
-      "subjects": ["SEO & Search Rankings", "Social Ads", "Content Marketing", "Analytics", "Other"],
-      "timeSlots": ["9:30 – 10:30 AM", "10:30 – 11:30 AM", "11:30 AM – 12:30 PM", "2:00 – 3:00 PM", "3:00 – 4:00 PM", "4:00 – 5:00 PM", "5:00 – 6:00 PM"],
+      "subjects": [
+        "SEO & Search Rankings",
+        "Social Ads",
+        "Content Marketing",
+        "Analytics",
+        "Other"
+      ],
+      "timeSlots": [
+        "9:30 – 10:30 AM",
+        "10:30 – 11:30 AM",
+        "11:30 AM – 12:30 PM",
+        "2:00 – 3:00 PM",
+        "3:00 – 4:00 PM",
+        "4:00 – 5:00 PM",
+        "5:00 – 6:00 PM"
+      ],
       "callDays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
       "messages": {
         "callbackSuccess": "Request sent successfully!",
@@ -206,7 +267,6 @@
       }
     }
   },
-
 
   "footer": {
     "tagline": "Follow our journey and connect with our community",
@@ -238,10 +298,7 @@
           "paragraphs": [
             "The Play To Sky website, accessible at https://playtosky.com/, is published by:"
           ],
-          "list": [
-            "Company: Play To Sky",
-            "Publication director: [Name]"
-          ],
+          "list": ["Company: Play To Sky", "Publication director: [Name]"],
           "links": [
             {
               "text": "Email:",
@@ -251,12 +308,8 @@
         },
         {
           "title": "Hosting",
-          "paragraphs": [
-            "The website is hosted by:"
-          ],
-          "list": [
-            "Host: OVH Cloud"
-          ],
+          "paragraphs": ["The website is hosted by:"],
+          "list": ["Host: OVH Cloud"],
           "links": [
             {
               "text": "Website:",
@@ -318,9 +371,7 @@
         },
         {
           "title": "Liability",
-          "paragraphs": [
-            "Play To Sky cannot be held responsible for:"
-          ],
+          "paragraphs": ["Play To Sky cannot be held responsible for:"],
           "list": [
             "Website interruptions",
             "Bugs or technical errors",
@@ -341,9 +392,7 @@
         },
         {
           "title": "Governing Law",
-          "paragraphs": [
-            "These Terms of Use are governed by French law."
-          ]
+          "paragraphs": ["These Terms of Use are governed by French law."]
         }
       ]
     },
@@ -358,9 +407,7 @@
         },
         {
           "title": "Nature of Services",
-          "paragraphs": [
-            "Services may include:"
-          ],
+          "paragraphs": ["Services may include:"],
           "list": [
             "Branding and design",
             "Digital marketing and advertising",
@@ -390,10 +437,7 @@
             "Payment terms are specified in the quote.",
             "Any late payment results in:"
           ],
-          "list": [
-            "Legal penalties",
-            "A fixed collection fee (€40)"
-          ]
+          "list": ["Legal penalties", "A fixed collection fee (€40)"]
         },
         {
           "title": "Timelines",
@@ -404,9 +448,7 @@
         },
         {
           "title": "Client Obligations",
-          "paragraphs": [
-            "The client agrees to:"
-          ],
+          "paragraphs": ["The client agrees to:"],
           "list": [
             "Provide the necessary information",
             "Meet validation deadlines",
@@ -446,9 +488,7 @@
       "sections": [
         {
           "title": "Data Controller",
-          "paragraphs": [
-            "The data controller is Play To Sky."
-          ],
+          "paragraphs": ["The data controller is Play To Sky."],
           "links": [
             {
               "text": "Email:",
@@ -458,9 +498,7 @@
         },
         {
           "title": "Data Collected",
-          "paragraphs": [
-            "The data collected may include:"
-          ],
+          "paragraphs": ["The data collected may include:"],
           "list": [
             "First and last name",
             "Email address",
@@ -470,9 +508,7 @@
         },
         {
           "title": "Purpose of Processing",
-          "paragraphs": [
-            "Data is collected in order to:"
-          ],
+          "paragraphs": ["Data is collected in order to:"],
           "list": [
             "Respond to inquiries",
             "Manage business relationships",
@@ -481,9 +517,7 @@
         },
         {
           "title": "Legal Basis",
-          "paragraphs": [
-            "Processing is based on:"
-          ],
+          "paragraphs": ["Processing is based on:"],
           "list": [
             "Consent",
             "Performance of a contract",
@@ -492,9 +526,7 @@
         },
         {
           "title": "Retention Period",
-          "paragraphs": [
-            "Data is retained:"
-          ],
+          "paragraphs": ["Data is retained:"],
           "list": [
             "For 3 years after the last contact, for prospects",
             "For the duration of the contract, for clients"
@@ -535,25 +567,18 @@
         },
         {
           "title": "Cookies",
-          "paragraphs": [
-            "The website uses cookies to:"
-          ],
-          "list": [
-            "Measure audience",
-            "Improve user experience"
-          ],
+          "paragraphs": ["The website uses cookies to:"],
+          "list": ["Measure audience", "Improve user experience"],
           "footer": "A cookie banner allows users to accept or decline their use."
         },
         {
           "title": "Governing Law",
-          "paragraphs": [
-            "This policy is governed by French law."
-          ]
+          "paragraphs": ["This policy is governed by French law."]
         }
       ]
     }
   },
-  "footer-bas" : {
-    "desc" : "Created by"
+  "footer-bas": {
+    "desc": "Created by"
   }
 }

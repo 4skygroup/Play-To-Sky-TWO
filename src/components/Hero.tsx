@@ -1,14 +1,14 @@
 import { useTranslation } from "react-i18next";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
-    const { t } = useTranslation();
+  const { t } = useTranslation();
 
-    return (
-        <section
-            className="relative min-h-screen overflow-hidden flex items-center justify-center p-4 sm:p-6"
-            style={{
-                  background: `
+  return (
+    <section
+      className="relative min-h-screen overflow-hidden flex items-center justify-center p-4 sm:p-6"
+      style={{
+        background: `
                     linear-gradient(
                         180deg,
                         #000000 0%,
@@ -17,62 +17,75 @@ export default function Hero() {
                         #020B6A 100%
                     )
                 `,
-            }}
-        >
-            {/* Carte noire */}
-            <div className="relative w-[95%] h-[88vh] bg-black rounded-[32px] flex items-center justify-center overflow-hidden">
+      }}
+    >
+      {/* Carte noire */}
+      <div className="relative w-[95%] h-[88vh] bg-black rounded-[32px] flex items-center justify-center overflow-hidden">
+        {/* Contenu */}
+        <div className="relative z-10 flex flex-col items-center text-center w-full px-4 sm:px-8 md:px-12">
+          {/* Titre */}
+          <h1
+            className="sm:block max-sm:hidden font-glacial font-normal text-white leading-tight tracking-tight
+                        text-h6 sm:text-h7 md:text-h6 lg:text-h4"
+          >
+            {t("home.hero.title.part1")}
+            {t("home.hero.title.part2")}
+            {t("home.hero.title.part3")}
+          </h1>
+          <h1
+            className="sm:hidden max-sm:block font-glacial font-normal text-white leading-tight tracking-tight
+                        text-h6 sm:text-h7 md:text-h6 lg:text-h4"
+          >
+            {t("home.hero.title.part1")}
+            <br />
+            {t("home.hero.title.part2")}
+            <br />
+            {t("home.hero.title.part3")}
+            <br />
+          </h1>
 
-                {/* Contenu */}
-                <div className="relative z-10 flex flex-col items-center text-center w-full px-4 sm:px-8 md:px-12">
+          {/* Sous-titre */}
+          <p className="mt-4 text-white/80 font-glacial text-t6 sm:text-t5 md:text-t4 max-w-3xl">
+            {t("home.hero.subtitle")}
+          </p>
 
-                    {/* Titre */}
-                    <h1 className="font-glacial font-normal text-white leading-tight tracking-tight
-                        text-h6 sm:text-h7 md:text-h6 lg:text-h4">
-                        {t("home.hero.title")}
-                    </h1>
-
-                    {/* Sous-titre */}
-                    <p className="mt-4 text-white/80 font-glacial text-t6 sm:text-t5 md:text-t4 max-w-3xl">
-                        {t("home.hero.subtitle")}
-                    </p>
-
-                    {/* Boutons */}
-                    <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-6 sm:mt-8">
-                        <Link
-                            to="/contact"
-                            className="px-6 py-2.5 rounded-full bg-white text-black
+          {/* Boutons */}
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-6 sm:mt-8">
+            <Link
+              to="/contact"
+              className="px-6 py-2.5 rounded-full bg-white text-black
                             shadow-[0_4px_0_rgba(0,0,0,0.6)] flex items-center justify-center gap-2
-                            font-medium font-glacial text-t6 sm:text-t5 hover:bg-white/90 transition-colors whitespace-nowrap">
-                            {t("home.hero.cta_project")}
-                            <span>↘</span>
-                        </Link>
+                            font-medium font-glacial text-t6 sm:text-t5 hover:bg-white/90 transition-colors whitespace-nowrap"
+            >
+              {t("home.hero.cta_project")}
+              <span>↘</span>
+            </Link>
 
-
-                        <Link
-                            to="/localisation"
-                            className="px-6 py-2.5 rounded-full text-white border-1
+            <Link
+              to="/localisation"
+              className="px-6 py-2.5 rounded-full text-white border-1
                             shadow-[0_4px_0_rgba(0,0,0,0.6)] flex items-center justify-center gap-2
-                            font-medium font-glacial text-t6 sm:text-t5 transition-colors whitespace-nowrap">
-                            {t("home.hero.cta_locations")}
-                            <span>↘</span>
-                        </Link>
-                    </div>
+                            font-medium font-glacial text-t6 sm:text-t5 transition-colors whitespace-nowrap"
+            >
+              {t("home.hero.cta_locations")}
+              <span>↘</span>
+            </Link>
+          </div>
 
-                    {/* Stats */}
-                    <div className="mt-6 sm:mt-8 flex items-center gap-2 sm:gap-3 text-white/80 font-glacial text-t7 sm:text-t6 md:text-t5">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="w-4 h-4 sm:w-5 sm:h-5 shrink-0"
-                            viewBox="0 0 24 24"
-                            fill="currentColor"
-                        >
-                            <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
-                        </svg>
-                        <span>{t("home.hero.stats")}</span>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-    );
+          {/* Stats */}
+          <div className="mt-6 sm:mt-8 flex items-center gap-2 sm:gap-3 text-white/80 font-glacial text-t7 sm:text-t6 md:text-t5">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-4 h-4 sm:w-5 sm:h-5 shrink-0"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
+            </svg>
+            <span>{t("home.hero.stats")}</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }

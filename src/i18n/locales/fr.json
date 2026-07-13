@@ -7,11 +7,28 @@
 
   "home": {
     "hero": {
-      "title": "Scaling Brands, One Group, Infinite Growth.",
+      "title": {
+        "part1": "Scaling Brands,",
+        "part2": " One Group,",
+        "part3": " Infinite Growth."
+      },
       "subtitle": "Un groupe 360° d'agences spécialisées — brand, digital, médias, IT et contenu.",
       "cta_project": "Parlez nous de votre projet",
       "cta_locations": "Paris, Londres, New York",
       "stats": "9 agences, + de 200 clients satisfaits, + 6M€ de budget publicitaire"
+    }
+  },
+  "carousel": {
+    "descriptions": {
+      "visuance": "Brand Design and Identity",
+      "pulse-x": "Social Agency - Media and Community Management",
+      "pulse-x-management": "Influence Agency and Content Creator",
+      "snackly": "Snack Content Agency",
+      "seofy": "Search Engines (SEO) Agency of AI and Media Buying SEA, Social Ads and Programmatic",
+      "drox360": "Creative Energy Agency - Innovative",
+      "play-to-sky-productions": "Movies Production Society",
+      "sky-to-be-media": "Media Production Society",
+      "cybersky": "IT Solutions and solutions for corporations"
     }
   },
   "acquisition": {
@@ -42,13 +59,43 @@
     "trustTitle": "La confiance des leaders du secteur",
     "trustSubtitle": "Découvrez ce que nos clients disent",
     "items": [
-      { "initial": "S", "name": "Sarah L.", "role": "Fondatrice", "quote": "On avait besoin de structurer notre image de marque et tout a été beaucoup plus clair après leur accompagnement. Le fait de pouvoir tout centraliser via Play To Sky nous a vraiment simplifié les choses." },
-      { "initial": "K", "name": "Karim B.", "role": "CEO", "quote": "Très bonne expérience du début à la fin. L’équipe comprend vite les enjeux et propose des solutions concrètes. On sent qu’il y a une vraie réflexion derrière chaque décision." },
-      { "initial": "J", "name": "Julie M.", "role": "Responsable marketing", "quote": "Ce que j’ai apprécié, c’est la cohérence globale. On a travaillé sur le branding, le contenu et la stratégie digitale sans avoir à gérer plusieurs prestataires." },
+      {
+        "initial": "S",
+        "name": "Sarah L.",
+        "role": "Fondatrice",
+        "quote": "On avait besoin de structurer notre image de marque et tout a été beaucoup plus clair après leur accompagnement. Le fait de pouvoir tout centraliser via Play To Sky nous a vraiment simplifié les choses."
+      },
+      {
+        "initial": "K",
+        "name": "Karim B.",
+        "role": "CEO",
+        "quote": "Très bonne expérience du début à la fin. L’équipe comprend vite les enjeux et propose des solutions concrètes. On sent qu’il y a une vraie réflexion derrière chaque décision."
+      },
+      {
+        "initial": "J",
+        "name": "Julie M.",
+        "role": "Responsable marketing",
+        "quote": "Ce que j’ai apprécié, c’est la cohérence globale. On a travaillé sur le branding, le contenu et la stratégie digitale sans avoir à gérer plusieurs prestataires."
+      },
 
-      { "initial": "T", "name": "Thomas R.", "role": "Entrepreneur", "quote": "On a gagné du temps et surtout en qualité. Tout est bien structuré, bien pensé. C’est rassurant d’avoir une équipe qui maîtrise autant de sujets." },
-      { "initial": "I", "name": "Inès D.", "role": "Cheffe de projet", "quote": "L’accompagnement est fluide et très professionnel. Ils sont à l’écoute et savent s’adapter à nos besoins, même quand le projet évolue en cours de route." },
-      { "initial": "M", "name": "Mehdi K.", "role": "Fondateur", "quote": "On sent qu’ils ne font pas juste de l’exécution. Il y a une vraie vision stratégique derrière, et ça change tout." }
+      {
+        "initial": "T",
+        "name": "Thomas R.",
+        "role": "Entrepreneur",
+        "quote": "On a gagné du temps et surtout en qualité. Tout est bien structuré, bien pensé. C’est rassurant d’avoir une équipe qui maîtrise autant de sujets."
+      },
+      {
+        "initial": "I",
+        "name": "Inès D.",
+        "role": "Cheffe de projet",
+        "quote": "L’accompagnement est fluide et très professionnel. Ils sont à l’écoute et savent s’adapter à nos besoins, même quand le projet évolue en cours de route."
+      },
+      {
+        "initial": "M",
+        "name": "Mehdi K.",
+        "role": "Fondateur",
+        "quote": "On sent qu’ils ne font pas juste de l’exécution. Il y a une vraie vision stratégique derrière, et ça change tout."
+      }
     ]
   },
 
@@ -174,7 +221,10 @@
       "hours": { "label": "Horaires", "value": "Lun–Ven · 9h30–19h00" }
     },
     "form": {
-      "tabs": { "callback": "Se faire rappeler", "message": "Envoyer un message" },
+      "tabs": {
+        "callback": "Se faire rappeler",
+        "message": "Envoyer un message"
+      },
       "fields": {
         "lastName": "Nom",
         "firstName": "Prénom",
@@ -194,8 +244,22 @@
         "callDay": "Select a day",
         "message": "Dites-nous en quoi nous pouvons vous aider…"
       },
-      "subjects": ["SEO & Référencement", "Social Ads", "Content Marketing", "Analytics", "Autre"],
-      "timeSlots": ["9h30 – 10h30", "10h30 – 11h30", "11h30 – 12h30", "14h00 – 15h00", "15h00 – 16h00", "16h00 – 17h00", "17h00 – 18h00"],
+      "subjects": [
+        "SEO & Référencement",
+        "Social Ads",
+        "Content Marketing",
+        "Analytics",
+        "Autre"
+      ],
+      "timeSlots": [
+        "9h30 – 10h30",
+        "10h30 – 11h30",
+        "11h30 – 12h30",
+        "14h00 – 15h00",
+        "15h00 – 16h00",
+        "16h00 – 17h00",
+        "17h00 – 18h00"
+      ],
       "callDays": ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi"],
       "messages": {
         "callbackSuccess": "Demande envoyée avec succès !",
@@ -251,12 +315,8 @@
         },
         {
           "title": "Hébergement",
-          "paragraphs": [
-            "Le site est hébergé par :"
-          ],
-          "list": [
-            "Hébergeur : OVH Cloud"
-          ],
+          "paragraphs": ["Le site est hébergé par :"],
+          "list": ["Hébergeur : OVH Cloud"],
           "links": [
             {
               "text": "Site web :",
@@ -318,9 +378,7 @@
         },
         {
           "title": "Responsabilité",
-          "paragraphs": [
-            "Play To Sky ne pourra être tenu responsable :"
-          ],
+          "paragraphs": ["Play To Sky ne pourra être tenu responsable :"],
           "list": [
             "Des interruptions du site",
             "Des bugs ou erreurs techniques",
@@ -341,9 +399,7 @@
         },
         {
           "title": "Droit applicable",
-          "paragraphs": [
-            "Les présentes CGU sont régies par le droit français."
-          ]
+          "paragraphs": ["Les présentes CGU sont régies par le droit français."]
         }
       ]
     },
@@ -358,9 +414,7 @@
         },
         {
           "title": "Nature des prestations",
-          "paragraphs": [
-            "Les prestations peuvent inclure :"
-          ],
+          "paragraphs": ["Les prestations peuvent inclure :"],
           "list": [
             "Branding et design",
             "Marketing digital et publicité",
@@ -404,9 +458,7 @@
         },
         {
           "title": "Obligations du client",
-          "paragraphs": [
-            "Le client s'engage à :"
-          ],
+          "paragraphs": ["Le client s'engage à :"],
           "list": [
             "Fournir les informations nécessaires",
             "Respecter les délais de validation",
@@ -446,9 +498,7 @@
       "sections": [
         {
           "title": "Responsable du traitement",
-          "paragraphs": [
-            "Le responsable du traitement est Play To Sky."
-          ],
+          "paragraphs": ["Le responsable du traitement est Play To Sky."],
           "links": [
             {
               "text": "Email :",
@@ -458,9 +508,7 @@
         },
         {
           "title": "Données collectées",
-          "paragraphs": [
-            "Les données collectées peuvent inclure :"
-          ],
+          "paragraphs": ["Les données collectées peuvent inclure :"],
           "list": [
             "Nom et prénom",
             "Adresse email",
@@ -470,9 +518,7 @@
         },
         {
           "title": "Finalités du traitement",
-          "paragraphs": [
-            "Les données sont collectées pour :"
-          ],
+          "paragraphs": ["Les données sont collectées pour :"],
           "list": [
             "Répondre aux demandes",
             "Gérer les relations commerciales",
@@ -481,9 +527,7 @@
         },
         {
           "title": "Base légale",
-          "paragraphs": [
-            "Les traitements reposent sur :"
-          ],
+          "paragraphs": ["Les traitements reposent sur :"],
           "list": [
             "Le consentement",
             "L'exécution d'un contrat",
@@ -492,9 +536,7 @@
         },
         {
           "title": "Durée de conservation",
-          "paragraphs": [
-            "Les données sont conservées :"
-          ],
+          "paragraphs": ["Les données sont conservées :"],
           "list": [
             "3 ans après le dernier contact pour les prospects",
             "Durée contractuelle pour les clients"
@@ -535,13 +577,8 @@
         },
         {
           "title": "Cookies",
-          "paragraphs": [
-            "Le site utilise des cookies pour :"
-          ],
-          "list": [
-            "Mesurer l'audience",
-            "Améliorer l'expérience utilisateur"
-          ],
+          "paragraphs": ["Le site utilise des cookies pour :"],
+          "list": ["Mesurer l'audience", "Améliorer l'expérience utilisateur"],
           "footer": "Un bandeau de gestion des cookies permet à l'utilisateur d'accepter ou refuser leur utilisation."
         },
         {
@@ -553,9 +590,7 @@
       ]
     }
   },
-  "footer-bas" : {
-    "desc" : "Créé par"
+  "footer-bas": {
+    "desc": "Créé par"
   }
 }
-
-
