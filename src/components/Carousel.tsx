@@ -100,9 +100,11 @@ export default function Carousel() {
 
       <div className="flex gap-3 md:gap-6 flex-1 justify-center">
         {three.map((slide, i) => (
-          <div className="w-[60vw] md:w-[min(280px,28vw)]">
+          <div
+            className="w-[60vw] md:w-[min(280px,28vw)]"
+            key={(start + i) % slides.length}
+          >
             <div
-              key={(start + i) % slides.length}
               className={`group relative aspect-square flex items-center justify-center shrink-0 w-[60vw] md:w-[min(280px,28vw)] ${i > 0 ? "hidden md:flex" : ""}`}
               style={{
                 backgroundColor: slide.bg,
