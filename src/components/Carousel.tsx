@@ -86,7 +86,7 @@ export default function Carousel() {
     slides[(start + 1) % slides.length],
     slides[(start + 2) % slides.length],
   ];
-  const { t } = useTranslation();
+  //   const { t } = useTranslation();
 
   return (
     <div className="min-h-1/2 bg-black flex items-center justify-center gap-6 md:gap-10 px-6 md:px-16 py-10 relative">
