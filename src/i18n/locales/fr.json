@@ -16,19 +16,23 @@
       "cta_project": "Parlez nous de votre projet",
       "cta_locations": "Paris, Londres, New York",
       "stats": "9 agences, + de 200 clients satisfaits, + 6M€ de budget publicitaire"
+    },
+    "titles": {
+      "agency": "Nos agences",
+      "leaders": "Accrédité par les leaders mondiaux du digital"
     }
   },
   "carousel": {
     "descriptions": {
-      "visuance": "Brand Design and Identity",
-      "pulse-x": "Social Agency - Media and Community Management",
-      "pulse-x-management": "Influence Agency and Content Creator",
-      "snackly": "Snack Content Agency",
-      "seofy": "Search Engines (SEO) Agency of AI and Media Buying SEA, Social Ads and Programmatic",
-      "drox360": "Creative Energy Agency - Innovative",
-      "play-to-sky-productions": "Movies Production Society",
-      "sky-to-be-media": "Media Production Society",
-      "cybersky": "IT Solutions and solutions for corporations"
+      "visuance": "Design de marque & identité visuelle",
+      "pulse-x": "Agence Social Media • Media Buying & Community Management",
+      "pulse-x-management": "Agence d'influence & créateurs de contenu",
+      "snackly": "Agence de Snack Content",
+      "seofy": "Agence SEO, SEA, Social Ads, Programmatique & IA",
+      "drox360": "Agence de création innovante",
+      "play-to-sky-productions": "Société de production cinématographique",
+      "sky-to-be-media": "Société de production audiovisuelle",
+      "cybersky": "Solutions informatiques & cybersécurité pour les entreprises"
     }
   },
   "acquisition": {
@@ -158,9 +162,9 @@
   "gouvernance": {
     "title": "Gouvernance",
     "desc1": "Global CEO & PMO, Stratégiste",
-    "desc2": "Directeur des opérations",
-    "desc3": "Directeur financier Exécutive",
-    "desc4": "Secrétaire Générale Principale"
+    "desc2": "Directeur des Opérations",
+    "desc3": "Directeur Financier Exécutif",
+    "desc4": "Secrétaire Général Principal"
   },
 
   "hero-bot": {
@@ -181,7 +185,7 @@
   },
 
   "agences": {
-    "title": "The DNA of Excellence",
+    "title": "L'ADN de l'Excellence",
     "subtitle": "Quatre piliers qui définissent chaque action au sein de notre groupe.",
     "visuanceSeofy": {
       "category": "Genèse",
@@ -209,6 +213,24 @@
     "title": "Façonnez l’avenir de la croissance avec nous.",
     "cta": "Découvrir nos opportunités",
     "subtitle": "Nous sommes constamment à la recherche de talents d’exception pour rejoindre nos entités spécialisées. Prêt à propulser votre carrière vers de nouveaux sommets ?"
+  },
+
+  "locations": {
+    "badge": "GLOBAL NETWORK",
+    "title": "Play to sky, une vision unique pour votre croissance.",
+    "description": "Un groupe 360° d’agences spécialisées : marque, digital, médias, informatique et création de contenus.",
+    "agent": "Agent local",
+    "stats": {
+      "agencies": "Agences",
+      "experts": "Experts",
+      "clients": "Clients",
+      "continents": "Continents"
+    },
+
+    "cta": {
+      "title": "Bâtir vos succès digitaux avec nous.",
+      "button": "Démarrer un projet"
+    }
   },
 
   "contact": {

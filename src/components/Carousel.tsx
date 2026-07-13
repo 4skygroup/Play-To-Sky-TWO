@@ -33,21 +33,21 @@ const slides: Slide[] = [
   },
 
   {
-    src: "/carousel/snackly.png",
+    src: "/carousel/snackly.webp",
     bg: "#7209B7",
     border: "#ffffff",
     href: "https://snacklyagency.com/",
     description: "carousel.descriptions.snackly",
   },
   {
-    src: "/carousel/seofy.png",
+    src: "/carousel/seofy.webp",
     bg: "#11676A",
     border: "#ffffff",
     href: "https://www.seofyagency.com/",
     description: "carousel.descriptions.seofy",
   },
   {
-    src: "/carousel/drox.png",
+    src: "/carousel/drox.webp",
     bg: "#FC64IC",
     border: "#ffffff",
     href: "https://drox360.com/",
@@ -55,21 +55,21 @@ const slides: Slide[] = [
   },
 
   {
-    src: "/carousel/playToSkyProd.png",
+    src: "/carousel/playToSkyProd.webp",
     bg: "#171717",
     border: "#ffffff",
     href: "https://www.playtoskyproductions.com/",
     description: "carousel.descriptions.play-to-sky-productions",
   },
   {
-    src: "/carousel/skyToBeMedia.png",
+    src: "/carousel/skyToBeMedia.webp",
     bg: "#111E85",
     border: "#ffffff",
     href: "https://www.skytobemedia.com/",
     description: "carousel.descriptions.sky-to-be-media",
   },
   {
-    src: "/carousel/cybersky.png",
+    src: "/carousel/cybersky.webp",
     bg: "#F23333",
     border: "#ffffff",
     href: "https://www.cyberskyagency.com/",

@@ -16,6 +16,10 @@
       "cta_project": "Tell us about your project",
       "cta_locations": "Paris, London, New York",
       "stats": "9 agencies, 200+ satisfied clients, 6M€+ in managed ad spend"
+    },
+    "titles": {
+      "agency": "Our agencies",
+      "leaders": "Accredited by global digital leaders"
     }
   },
   "carousel": {
@@ -208,6 +212,24 @@
     "desc2": "Head Operations Director",
     "desc3": "Executive Financial Director",
     "desc4": "Senior General Secretary"
+  },
+
+  "locations": {
+    "badge": "GLOBAL NETWORK",
+    "title": "Play to sky, a unique vision for your growth.",
+    "description": "A 360° group of specialized agencies : brand, digital, media, IT and content.",
+    "agent": "Local Agent",
+    "stats": {
+      "agencies": "Agencies",
+      "experts": "Experts",
+      "clients": "Clients",
+      "continents": "Continents"
+    },
+
+    "cta": {
+      "title": "Building your digital success together.",
+      "button": "Start a project"
+    }
   },
 
   "contact": {
