@@ -100,36 +100,36 @@ export default function Carousel() {
 
       <div className="flex gap-3 md:gap-6 flex-1 justify-center">
         {three.map((slide, i) => (
+          //   <div
+          //     className="w-fit md:w-[min(280px,28vw)] h-fit"
+          //     key={(start + i) % slides.length}
+          //   >
           <div
-            className="w-[60vw] md:w-[min(280px,28vw)]"
-            key={(start + i) % slides.length}
+            className={`group relative aspect-square flex items-center justify-center shrink-0 w-[60vw] md:w-[min(280px,28vw)] ${i > 0 ? "hidden md:flex" : ""}`}
+            style={{
+              backgroundColor: slide.bg,
+              border: slide.border ? `2px solid ${slide.border}` : "none",
+            }}
           >
-            <div
-              className={`group relative aspect-square flex items-center justify-center shrink-0 w-[60vw] md:w-[min(280px,28vw)] ${i > 0 ? "hidden md:flex" : ""}`}
-              style={{
-                backgroundColor: slide.bg,
-                border: slide.border ? `2px solid ${slide.border}` : "none",
-              }}
+            <a
+              href={slide.href}
+              className="relative w-full h-full flex items-center justify-center"
             >
-              <a
-                href={slide.href}
-                className="relative w-full h-full flex items-center justify-center"
-              >
-                <img
-                  src={slide.src}
-                  alt={`Slide ${((start + i) % slides.length) + 1}`}
-                  className="w-full h-full object-contain transition-opacity duration-300 group-hover:opacity-50"
-                />
-                <span className="absolute top-2 right-2 text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  ↗
-                </span>
-                {/* Hey */}
-              </a>
-            </div>
-            <p className="text-white text-center pt-4 px-4">
-              {t(slide.description)}
-            </p>
+              <img
+                src={slide.src}
+                alt={`Slide ${((start + i) % slides.length) + 1}`}
+                className="w-full h-full object-contain transition-opacity duration-300 group-hover:opacity-50"
+              />
+              <span className="absolute top-2 right-2 text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                ↗
+              </span>
+              {/* Hey */}
+            </a>
           </div>
+          // <p className="text-white text-center pt-4 px-4 max-w-[60vw] md:max-w-[min(280px,28vw)]">
+          //   {t(slide.description)}
+          // </p>
+          //   </div>
         ))}
       </div>
 
