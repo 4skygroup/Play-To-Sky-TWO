@@ -127,7 +127,7 @@ export default function Carousel() {
                 {/* Hey */}
               </a>
             </div>
-            <p className="text-white text-center px-4 pt-4 max-w-[60vw] md:w-[min(280px,28vw)">
+            <p className="text-t5 md:text-t4 text-white text-center px-4 pt-4 max-w-[60vw] md:w-[min(280px,28vw)">
               {t(slide.description)}
             </p>
           </div>
