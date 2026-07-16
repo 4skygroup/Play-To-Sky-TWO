@@ -18,7 +18,7 @@ export default function Locations() {
         </div>
 
         <hr className="w-full max-w-4xl border-black/10" />
-
+        {/*  */}
         <div className="grid grid-cols-2 md:flex md:flex-row gap-10 md:gap-32 w-fit max-w-5xl justify-items-center">
           <div className="flex flex-col gap-y-1 items-center justify-center">
             <span className="font-bold text-3xl md:text-h6">9</span>
