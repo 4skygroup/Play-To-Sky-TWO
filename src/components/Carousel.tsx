@@ -125,7 +125,7 @@ export default function Carousel() {
                 ↗
               </span>
             </a>
-            <p className="absolute bottom-2 text-t6 md:text-t5 text-[#cbced3] text-center px-4 pt-4 max-w-[60vw] md:w-[min(280px,28vw)">
+            <p className="absolute bottom-5 max-md:bottom-5 text-t6 md:text-t5 text-[#cbced3] text-center px-4 pt-4 max-w-[60vw] md:w-[min(280px,28vw)">
               {t(slide.description)}
             </p>
           </div>
