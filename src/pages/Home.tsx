@@ -7,6 +7,7 @@ import HeroFooter from "../components/HeroFooter.tsx";
 import SectionTop from "../components/SectionTop.tsx";
 import Faq from "../components/faq/Faq.tsx";
 import LogosList from "../components/LogosList.tsx";
+import SEO from "../components/SEO.tsx";
 
 export default function Home() {
   const partenaires: Logo[] = [
@@ -29,6 +30,13 @@ export default function Home() {
 
   return (
     <>
+
+        <SEO
+            title="Play To Sky — Groupe d'agences créatives, digitales et technologiques"
+            description="Play To Sky est le portail central d'un groupe d'agences spécialisées dans le branding, le digital, l'IT, le contenu, les médias et la production."
+            path="/"
+        />
+
       <Hero />
       <SliderInfini logos={partenaires} />
       <SectionTop title="home.titles.agency" />

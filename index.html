@@ -1,13 +1,165 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Play to sky</title>
+
+    <link rel="icon" type="image/webp" href="/playToSky.webp" />
+
+    <title>Play To Sky — Groupe d'agences créatives, digitales et technologiques</title>
+    <meta name="description" content="Play To Sky est le portail central d'un groupe d'agences spécialisées dans le branding, le digital, l'IT, le contenu, les médias et la production." />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Play To Sky" />
+    <link rel="canonical" href="https://play-to-sky-two.vercel.app/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Play To Sky" />
+    <meta property="og:url" content="https://play-to-sky-two.vercel.app/" />
+    <meta property="og:title" content="Play To Sky — Groupe d'agences créatives, digitales et technologiques" />
+    <meta property="og:description" content="Play To Sky est le portail central d'un groupe d'agences spécialisées dans le branding, le digital, l'IT, le contenu, les médias et la production." />
+    <meta property="og:image" content="https://play-to-sky-two.vercel.app/playToSky.webp" />
+    <meta property="og:image:alt" content="Play To Sky" />
+    <meta property="og:locale" content="fr_FR" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Play To Sky — Groupe d'agences créatives, digitales et technologiques" />
+    <meta name="twitter:description" content="Découvrez Play To Sky, le portail central d'un groupe d'agences spécialisées dans le branding, le digital, l'IT, le contenu, les médias et la production." />
+    <meta name="twitter:image" content="https://play-to-sky-two.vercel.app/playToSky.webp" />
+    <meta name="twitter:image:alt" content="Play To Sky" />
+
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#000000" />
+
+    <!-- Schema.org / JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://play-to-sky-two.vercel.app/#organization",
+            "name": "Play To Sky",
+            "url": "https://play-to-sky-two.vercel.app/",
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://play-to-sky-two.vercel.app/#logo",
+              "url": "https://play-to-sky-two.vercel.app/playToSky.webp",
+              "contentUrl": "https://play-to-sky-two.vercel.app/playToSky.webp"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://play-to-sky-two.vercel.app/#website",
+            "url": "https://play-to-sky-two.vercel.app/",
+            "name": "Play To Sky",
+            "description": "Play To Sky est le portail central d'un groupe d'agences spécialisées dans le branding, le digital, l'IT, le contenu, les médias et la production.",
+            "publisher": {
+              "@id": "https://play-to-sky-two.vercel.app/#organization"
+            },
+            "inLanguage": "fr-FR"
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://play-to-sky-two.vercel.app/#faq",
+            "url": "https://play-to-sky-two.vercel.app/",
+            "name": "FAQ — Play To Sky",
+            "inLanguage": "fr-FR",
+            "isPartOf": {
+              "@id": "https://play-to-sky-two.vercel.app/#website"
+            },
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Qu’est-ce que Play To Sky ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Play To Sky est le portail central du groupe. Il permet de découvrir l’ensemble des agences et constitue le point d’entrée principal pour comprendre l’écosystème."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Que regroupe le groupe Play To Sky ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Le groupe rassemble plusieurs agences spécialisées dans le branding, le digital, l’IT, le contenu, les médias et la production, afin d’offrir une approche complète."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "À qui s’adresse Play To Sky ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Play To Sky s’adresse aux entreprises, startups et marques qui souhaitent développer leur image, leur présence digitale ou leurs produits avec une approche globale."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Comment fonctionne la collaboration ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Après une prise de contact, les besoins sont analysés puis le projet est orienté vers l’agence la plus adaptée ou vers plusieurs entités si nécessaire."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Peut-on travailler avec plusieurs agences du groupe ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Oui, il est possible de mobiliser plusieurs entités pour construire une stratégie cohérente et complète."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Pourquoi passer par Play To Sky ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Play To Sky permet d’accéder à plusieurs expertises via un seul point de contact et d’assurer une cohérence globale entre les différents aspects d’un projet."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Comment sont définis les tarifs ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Les tarifs dépendent du projet, des objectifs et des agences impliquées. Une proposition personnalisée est réalisée après analyse des besoins."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Proposez-vous un accompagnement global ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Oui, le groupe peut accompagner un projet de bout en bout, de la création de marque à la mise en œuvre technique et marketing."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Travaillez-vous à l’international ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Oui, les agences du groupe peuvent intervenir sur des projets nationaux et internationaux."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Quelle est la vision de Play To Sky ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "La vision est de construire des projets performants en combinant créativité, technologie et stratégie digitale."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
   </head>
+
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
+

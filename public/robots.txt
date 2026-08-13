@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://play-to-sky-two.vercel.app/sitemap.xml
+Sitemap: https://play-to-sky-two.vercel.app/sitemap-images.xml

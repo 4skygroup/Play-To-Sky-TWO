@@ -120,6 +120,7 @@ export default function Carousel() {
                 src={slide.src}
                 alt={`Slide ${((start + i) % slides.length) + 1}`}
                 className="w-full h-full object-contain transition-opacity duration-300 group-hover:opacity-50"
+                loading="lazy"
               />
               <span className="absolute top-2 right-2 text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 ↗

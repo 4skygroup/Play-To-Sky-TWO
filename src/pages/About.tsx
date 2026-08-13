@@ -3,10 +3,17 @@ import AgenceList from "../components/agences/AgenceList.tsx";
 import HeroFooter from "../components/HeroFooter.tsx";
 import Carrousel from "../components/gouvernance/Carrousel.tsx";
 import { t } from "i18next";
+import SEO from "../components/SEO";
 
 export default function About() {
   return (
     <>
+        <SEO
+            title="À propos — Play To Sky | Groupe d'agences"
+            description="Découvrez Play To Sky, le groupe qui rassemble plusieurs agences spécialisées dans le branding, le digital, l'IT, le contenu, les médias et la production."
+            path="/about"
+        />
+
       <Groupe />
       <AgenceList />
 

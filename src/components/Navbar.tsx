@@ -20,7 +20,7 @@ export default function Navbar() {
         to="/"
         className="shrink-0 md:absolute md:left-1/2 md:-translate-x-1/2"
       >
-        <img src="/playToSky.webp" alt="play to sky logo" className="h-6" />
+        <img src="/playToSky.webp" alt="play to sky logo" className="h-6" loading="lazy"/>
       </NavLink>
 
       {/* Lang switcher (desktop uniquement, à droite du logo dans le flux) */}
@@ -84,7 +84,7 @@ export default function Navbar() {
         {/* Logo centré */}
         <div className="flex justify-center mt-16 mb-12">
           <NavLink to="/" onClick={() => setMenuOpen(false)}>
-            <img src="/playToSky.webp" alt="Pulse X" className="h-12" />
+            <img src="/playToSky.webp" alt="Pulse X" className="h-12" loading="lazy"/>
           </NavLink>
         </div>
 

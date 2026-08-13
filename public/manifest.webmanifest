@@ -1,0 +1,20 @@
+{
+  "name": "Play To Sky",
+  "short_name": "Play To Sky",
+  "description": "Play To Sky est le portail central d'un groupe d'agences spécialisées dans le branding, le digital, l'IT, le contenu, les médias et la production.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "/playToSky.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any"
+    }
+  ]
+}
+

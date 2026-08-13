@@ -21,6 +21,7 @@ export default function CreatedBy() {
                         src="/visuance-logo.webp"
                         alt="Visuance"
                         className="scale-140 h-16 w-auto opacity-85 group-hover:opacity-100 transition-all duration-700 filter grayscale group-hover:grayscale-0"
+                        loading="lazy"
                     />
                     <div className="absolute inset-0 bg-linear-to-tr from-blue-500/5 to-purple-500/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
                 </div>

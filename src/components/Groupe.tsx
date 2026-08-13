@@ -11,6 +11,7 @@ export default function Groupe() {
             src="/about.webp"
             alt={t("genesis.imageAlt")}
             className="w-full h-full object-cover"
+            loading="lazy"
           />
         </div>
 
