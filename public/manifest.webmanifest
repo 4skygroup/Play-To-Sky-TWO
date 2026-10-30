@@ -2,6 +2,7 @@
   "name": "Play To Sky",
   "short_name": "Play To Sky",
   "description": "Play To Sky est le portail central d'un groupe d'agences spécialisées dans le branding, le digital, l'IT, le contenu, les médias et la production.",
+  "id": "/",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
@@ -17,4 +18,3 @@
     }
   ]
 }
-

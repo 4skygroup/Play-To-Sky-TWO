@@ -3,9 +3,9 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
     <url>
-        <loc>https://play-to-sky-two.vercel.app/</loc>
+        <loc>https://playtosky.com/</loc>
         <image:image>
-            <image:loc>https://play-to-sky-two.vercel.app/playToSky.webp</image:loc>
+            <image:loc>https://playtosky.com/playToSky.webp</image:loc>
             <image:title>Play To Sky</image:title>
         </image:image>
     </url>

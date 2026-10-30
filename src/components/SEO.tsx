@@ -6,7 +6,7 @@ interface SEOProps {
   path?: string;
 }
 
-const SITE_URL = "https://play-to-sky-two.vercel.app";
+const SITE_URL = "https://playtosky.com/";
 
 export default function SEO({
   title,
