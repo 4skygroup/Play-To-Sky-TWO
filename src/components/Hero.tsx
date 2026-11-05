@@ -64,7 +64,7 @@ export default function Hero() {
           </div>
 
           {/* Stats */}
-          <div className="mt-6 sm:mt-8 flex items-center gap-2 sm:gap-3 text-white/80 font-glacial text-t7 sm:text-t6 md:text-t5">
+          <div className="mt-6 sm:mt-8 flex items-center gap-2 sm:gap-3 text-white/80 font-glacial text-t6 md:text-t5">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-4 h-4 sm:w-5 sm:h-5 shrink-0"

@@ -42,7 +42,7 @@ export default function Groupe() {
                 <div className="font-glacial font-bold text-t1 text-white">
                   {stat.value}
                 </div>
-                <div className="font-glacial text-t7 text-white/50 uppercase tracking-wider mt-1">
+                <div className="font-glacial text-t6 text-white/50 uppercase tracking-wider mt-1">
                   {stat.label}
                 </div>
               </div>

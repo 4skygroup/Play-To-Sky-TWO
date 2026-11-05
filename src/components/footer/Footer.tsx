@@ -11,7 +11,7 @@ const FooterColumn = ({
 }) => (
   <div className="flex flex-col gap-4">
     <h4 className="text-t5 font-bold text-white">{title}</h4>
-    <div className="flex flex-col gap-[0.55rem]">{children}</div>
+    <div className="flex flex-col items-start md:gap-[0.55rem]">{children}</div>
   </div>
 );
 
@@ -24,7 +24,7 @@ const FooterLink = ({
 }) => (
   <a
     href={href}
-    className="text-t5 text-white hover:underline transition-colors duration-200"
+    className="inline-block py-2 md:py-0 text-t5 text-white hover:underline transition-colors duration-200"
     target="_blank"
     rel="noopener noreferrer"
   >
@@ -41,7 +41,7 @@ const Footer = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-8 pt-12 pb-6">
         <div className="grid grid-cols-1 md:grid-cols-[1.5fr_1fr_1fr_1fr] gap-16">
           <div className="flex flex-col items-center mb-10 gap-5">
-            <a href="/" aria-label="Seofy – Accueil">
+            <a href="/" aria-label="Play To Sky – Accueil">
               <img
                 className="h-8"
                 src="/playToSky.webp"

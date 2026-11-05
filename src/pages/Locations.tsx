@@ -70,7 +70,7 @@ export default function Locations() {
             </p>
 
             <button
-                className="text-t7 md:text-t5 py-4 md:py-5 px-8 md:px-10 bg-black text-white w-fit rounded-full flex justify-center items-center gap-3 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-black cursor-pointer"
+                className="text-t6 md:text-t5 py-4 md:py-5 px-8 md:px-10 bg-black text-white w-fit rounded-full flex justify-center items-center gap-3 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-black cursor-pointer"
                 onClick={() => navigate("/contact")}
             >
               {t("locations.cta.button")}
