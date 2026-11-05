@@ -602,5 +602,10 @@
   },
   "footer-bas": {
     "desc": "Created by"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "This page does not exist or has been moved.",
+    "cta": "Back to home"
   }
 }

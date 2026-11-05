@@ -1,4 +1,6 @@
 import { useTranslation } from "react-i18next";
+import { useLocation } from "react-router-dom";
+import SEO from "../../components/SEO.tsx";
 import type { LegalSection } from "./Types.ts";
 
 interface LegalPageLayoutProps {
@@ -8,10 +10,16 @@ interface LegalPageLayoutProps {
 export default function LegalPageLayout({ translationKey }: LegalPageLayoutProps) {
     const { t } = useTranslation();
     const pageTitle = t(`${translationKey}.pageTitle`);
+    const { pathname } = useLocation();
     const sections = t(`${translationKey}.sections`, { returnObjects: true }) as LegalSection[];
 
     return (
         <main className="min-h-screen bg-black font-glacial px-6 py-20 md:px-16 lg:px-32">
+            <SEO
+                title={`${pageTitle} — Play To Sky`}
+                description={`${pageTitle} du site Play To Sky, groupe d'agences créatives, digitales et technologiques.`}
+                path={pathname.replace(/\/+$/, "") || "/"}
+            />
             <div className="max-w-3xl mx-auto">
                 <h1 className="text-h6 font-bold text-white mb-8">{pageTitle}</h1>
 

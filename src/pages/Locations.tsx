@@ -17,9 +17,9 @@ export default function Locations() {
       <div className="bg-black text-white ">
         <section className="flex flex-col items-center justify-center gap-y-8 md:gap-y-12 md:py-40 md:pt-25 py-24 px-4 md:px-5">
           <div className="flex flex-col items-center justify-center gap-6 md:gap-8">
-            <p className="text-center font-bold max-w-3xl max-md:text-3xl md:text-h5 ">
+            <h1 className="text-center font-bold max-w-3xl max-md:text-3xl md:text-h5 ">
               {t("locations.title")}
-            </p>
+            </h1>
             <p className="text-[#CFC4C5] text-center text-base md:text-t4 max-w-3xl">
               {t("locations.description")}
             </p>

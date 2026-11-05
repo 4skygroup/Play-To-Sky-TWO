@@ -20,9 +20,9 @@ export default function Groupe() {
             {t("genesis.badge")}
           </span>
 
-          <h2 className="font-glacial font-bold text-h7 md:text-h6 lg:text-h5 text-white leading-tight">
+          <h1 className="font-glacial font-bold text-h7 md:text-h6 lg:text-h5 text-white leading-tight">
             {t("genesis.title")}
-          </h2>
+          </h1>
 
           <p className="font-glacial text-t5 text-white/60 leading-relaxed max-w-xl">
             {t("genesis.description")}

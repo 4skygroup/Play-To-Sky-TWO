@@ -12,6 +12,7 @@ import MentionsLegales from "./pages/legalPage/MentionsLegales.tsx";
 import PolitiqueConfidentialite from "./pages/legalPage/PolitiqueConfidentialite.tsx";
 import ConditionsGeneralesVente from "./pages/legalPage/ConditionsGeneralesVente.tsx";
 import ConditionsGeneralesUtilisation from "./pages/legalPage/ConditionsGeneralesUtilisation.tsx";
+import NotFound from "./pages/NotFound.tsx";
 
 export default function App() {
   return (
@@ -28,6 +29,7 @@ export default function App() {
               <Route path="/politique-confidentialite" element={<PolitiqueConfidentialite />} />
               <Route path="/conditions-vente" element={<ConditionsGeneralesVente />} />
               <Route path="/conditions-utilisation" element={<ConditionsGeneralesUtilisation />} />
+              <Route path="*" element={<NotFound />} />
 
           </Routes>
           <Footer />

@@ -6,7 +6,7 @@ interface SEOProps {
   path?: string;
 }
 
-const SITE_URL = "https://playtosky.com/";
+const SITE_URL = "https://playtosky.com"; // sans barre finale : path commence par « / »
 
 export default function SEO({
   title,
@@ -28,7 +28,7 @@ export default function SEO({
 
     descriptionTag.content = description;
 
-    const canonicalUrl = `${SITE_URL}${path}`;
+    const canonicalUrl = `${SITE_URL}${path.startsWith("/") ? path : "/" + path}`;
 
     let canonicalTag = document.querySelector(
       'link[rel="canonical"]'
