@@ -25,23 +25,14 @@ export default function Hero() {
         <div className="relative z-10 flex flex-col items-center text-center w-full px-4 sm:px-8 md:px-12">
           {/* Titre */}
           <h1
-            className="sm:block max-sm:hidden font-glacial font-normal text-white leading-tight tracking-tight
+            className="font-glacial font-normal text-white leading-tight tracking-tight
                         text-h6 sm:text-h7 md:text-h6 lg:text-h4"
           >
             {t("home.hero.title.part1")}
+            <br className="sm:hidden" />
             {t("home.hero.title.part2")}
+            <br className="sm:hidden" />
             {t("home.hero.title.part3")}
-          </h1>
-          <h1
-            className="sm:hidden max-sm:block font-glacial font-normal text-white leading-tight tracking-tight
-                        text-h6 sm:text-h7 md:text-h6 lg:text-h4"
-          >
-            {t("home.hero.title.part1")}
-            <br />
-            {t("home.hero.title.part2")}
-            <br />
-            {t("home.hero.title.part3")}
-            <br />
           </h1>
 
           {/* Sous-titre */}
@@ -73,7 +64,7 @@ export default function Hero() {
           </div>
 
           {/* Stats */}
-          <div className="mt-6 sm:mt-8 flex items-center gap-2 sm:gap-3 text-white/80 font-glacial text-t7 sm:text-t6 md:text-t5">
+          <div className="mt-6 sm:mt-8 flex items-center gap-2 sm:gap-3 text-white/80 font-glacial text-t6 md:text-t5">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-4 h-4 sm:w-5 sm:h-5 shrink-0"
