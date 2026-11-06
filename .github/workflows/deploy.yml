@@ -80,7 +80,9 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            if [ ! -d /etc/letsencrypt/live/playtosky.com ]; then
+            # sudo obligatoire : /etc/letsencrypt/live n\'est lisible qu\'en root.
+            # Sans sudo, le test croit le certificat absent et reecrit la config a chaque deploiement.
+            if ! sudo test -d /etc/letsencrypt/live/playtosky.com; then
               sudo certbot --nginx -d playtosky.com -d www.playtosky.com \
                 --non-interactive --agree-tos -m ${{ secrets.CERTBOT_EMAIL }}
             fi
